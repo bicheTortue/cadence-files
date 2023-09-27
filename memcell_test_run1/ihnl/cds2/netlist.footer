@@ -1,8 +1,0 @@
-memcell I0 ( out, enIn, enOut, in);
-vdc  V3 ( .PLUS(cds_globals.vdd_), .MINUS(cds_globals.gnd_));
-vpulse #(5*T/2)   V2 ( .PLUS(enOut), .MINUS(cds_globals.gnd_));
-vpulse #(T)   V1 ( .PLUS(enIn), .MINUS(cds_globals.gnd_));
-vpulse #(T)   V0 ( .PLUS(in), .MINUS(cds_globals.gnd_));
-res  C0 ( .MINUS(cds_globals.gnd_), .PLUS(out));
-
-endmodule
