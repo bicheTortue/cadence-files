@@ -1,3 +1,6 @@
+.cadence/
+.tmp_vbarbaza/
+logs_vbarbaza/
 *.rdb
 *.log*
 *.cdslck
