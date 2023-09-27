@@ -1,0 +1,12 @@
+nch  M13 ( .D(net4), .B(gnd), .G(vinp), .S(net3));
+nch  M12 ( .D(net6), .B(gnd), .G(vinn), .S(net3));
+nch  M15 ( .D(idc), .B(gnd), .G(idc), .S(gnd));
+nch  M14 ( .D(net3), .B(gnd), .G(idc), .S(gnd));
+nch  M19 ( .D(net5), .B(gnd), .G(net5), .S(gnd));
+nch  M17 ( .D(vout), .B(gnd), .G(net5), .S(gnd));
+pch  M10 ( .D(net6), .B(vdd), .G(net6), .S(vdd));
+pch  M7 ( .D(net5), .B(vdd), .G(net6), .S(vdd));
+pch  M4 ( .D(net4), .B(vdd), .G(net4), .S(vdd));
+pch  M2 ( .D(vout), .B(vdd), .G(net4), .S(vdd));
+
+endmodule

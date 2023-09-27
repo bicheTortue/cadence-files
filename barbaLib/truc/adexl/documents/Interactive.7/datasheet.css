@@ -1,0 +1,222 @@
+/*************************************************************
+ * This program is the Confidential and Proprietary product of
+ * Cadence Design Systems.  Any unauthorized use, reproduction
+ * or transfer of this program is strictly prohibited.
+ *
+ * Copyright (c) 2006, Cadence Design Systems, Inc.
+ * All rights reserved.
+ *
+ * Purpose: Style sheet for datasheets.
+ *
+ *************************************************************
+ * $Revision: #1 $
+ * $Author: cicinteg $ 
+ *************************************************************/
+ 
+html body {
+	line-height:1.55em;
+	font-family:"Lucida Grande", verdana, lucida, helvetica, sans-serif;
+	padding:0em 0.6em 0 0.3em;
+	font-size:x-small;
+	font-size:small;
+}
+
+html>body {
+	font-size:small;
+}
+
+body, p, li, ul, ol, dl, dt, dd, acronym {
+	background-color:transparent;
+	margin:1em 0 0 0 0.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Lucida Grande", helvetica, lucida, verdana, sans-serif;
+	line-height:104%;
+	padding:0;
+	margin:1em 0 0.1em 0.3em;
+}
+
+h1 {
+	font-size:180%;
+	display:block;
+	color:#e24028;
+	background-color:#F3EDE7;
+	margin:0.7em -0.7em 0.15em -0.7em;
+	padding:0.2em 0.7em;
+}
+
+h2 {
+	font-size:145%;
+	display:block;
+	background-color:#F3EDE7;
+	color:#900;
+	padding:0.2em 0.7em;
+	margin:1em -0.7em 0.15em -0.7em;
+	height:auto;
+}
+
+h3 {
+	font-size:135%;
+	display:block;
+	background-color:#F3EDE7;
+	color:#900;
+	padding:0.2em 0.7em;
+	margin:1em -0.7em 0.15em -0.7em;
+	height:auto;
+}
+
+h4 { font-size:125%; color:#900;}
+h5 { font-size:110%; color:#900;}
+h6 { font-size:95%; color:#900;}
+
+u { text-decoration: underline }
+a { text-decoration: underline }
+
+.text-right {
+	float: right;
+}
+.img-right {
+	float: right;
+	border: 0px solid #aaa;
+	padding: 10px ;
+}
+
+table
+{
+	display: table;
+	border-collapse:collapse;
+	padding:0px;
+	border-spacing:2px;
+	empty-cells:show;
+	border:0px;
+	font-size:90%;
+	width:89%;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+
+
+tr {
+	display: table-row;
+}
+
+.row0 {
+	background-color:#ffffcc;
+}
+.row1 {
+	background-color:#ffffff;
+}
+
+.pset_color1 {
+	background-color:#fae6d2;
+}
+
+.pset_color2 {
+	background-color:#fadab8
+}
+
+.pset_color3 {
+	background-color:#face9e;
+}
+
+.pset_color4 {
+	background-color:#fac284
+}
+
+.pset_color5 { 
+	background-color:#fab66a
+}
+
+.pset_color6 { 
+	background-color:#faaa50
+}
+
+.pset_color7 { 
+	background-color:#fa9e36
+}
+
+.pset_color8 { 
+	background-color:#fa921c
+}
+
+.thcell {
+	padding:0.2em 0.6em;
+	height:2.5em;
+	text-align:middle;
+	vertical-align:middle;
+	font-weight: 700;
+	background-color:#cbd9ff;
+	color:#1559B3;
+}
+
+.rowSubHeader {
+	background-color:#fff0cf;
+	text-align:middle;
+	vertical-align:middle;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.enabled, .pass-img {
+	background: url("check_green.png")  no-repeat center;
+}
+
+.disabled, .fail-img {
+	background: url("cross_red.png")  no-repeat center;
+}
+
+.pass-color {
+	background-color:#ccffaa;
+}
+
+.fail-color
+{
+	background-color:#ffc5c5;
+}
+
+.error-color
+{
+	background-color:#ff8a8a;
+}
+
+.near-color {
+	background-color:#ffff99;
+}
+
+.disabled-color {
+	background-color:#dddddd;
+}
+
+td {
+	display: table-cell;
+
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+
+ 	padding:0.2em 0.6em;
+	height:1.4em;
+	text-align:left;
+	vertical-align:top;
+}
+
+th {
+	display: table-cell;
+
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+
+	padding:0.2em 0.6em;
+	height:2.5em;
+	text-align:middle;
+	vertical-align:middle;
+	font-weight: 700;
+	background-color:#cbd9ff;
+	color:#1559B3;
+}

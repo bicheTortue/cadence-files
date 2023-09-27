@@ -1,0 +1,202 @@
+
+html body {
+        line-height:1.55em;
+        font-family:"Lucida Grande", verdana, lucida, helvetica, sans-serif;
+        padding:0em 0.6em 0 0.3em;
+        font-size:x-small;
+        font-size:small;
+}
+
+html>body {
+        font-size:small;
+}
+
+body, p, li, ul, ol, dl, dt, dd, acronym {
+        background-color:transparent;
+        margin:1em 0 0 0 0.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-family:"Lucida Grande", helvetica, lucida, verdana, sans-serif;
+        line-height:104%;
+        padding:0;
+        margin:1em 0 0.1em 0.3em;
+        page-break-before: always;
+}
+
+h1 {
+        font-size:180%;
+        display:block;
+        color:#e24028;
+        background-color:#F3EDE7;
+        margin:0.7em -0.7em 0.15em -0.7em;
+        padding:0.2em 0.7em;
+}
+
+h2 {
+        font-size:145%;
+        display:block;
+        background-color:#F3EDE7;
+        color:#900;
+        padding:0.2em 0.7em;
+        margin:1em -0.7em 0.15em -0.7em;
+        height:auto;
+}
+h3 {
+        font-size:135%;
+        display:block;
+        background-color:#F3EDE7;
+        color:#900;
+        padding:0.2em 0.7em;
+        margin:1em -0.7em 0.15em -0.7em;
+        height:auto;
+}
+
+h4 { font-size:125%; color:#900;}
+h5 { font-size:110%; color:#900;}
+h6 { font-size:95%; color:#900;}
+
+u { text-decoration: underline }
+a { text-decoration: underline }
+
+.text-right {
+        float: right;
+}
+
+.img-right {
+        float: right;
+        border: 0px solid #aaa;
+        padding: 10px ;
+}
+table
+{
+        display: table;
+        border-collapse:collapse;
+        padding:0px;
+        border-spacing:2px;
+        empty-cells:show;
+        border:0px;
+        font-size:90%;
+        width:89%;
+        border-top:1px solid #ccc;
+        border-right:1px solid #ccc;
+        border-left:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+}
+
+
+tr {
+        display: table-row;
+}
+
+.row0 {
+        background-color:#ffffcc;
+}
+
+.row1 {
+        background-color:#ffffff;
+}
+
+.thcell {
+        padding:0.2em 0.6em;
+        height:2.5em;
+        text-align:center;
+        vertical-align:middle;
+        font-weight: 700;
+        background-color:#cbd9ff;
+        color:#1559B3;
+}
+
+.rowSubHeader { 
+        background-color:#fff0cf;
+        text-align:center;
+        vertical-align:middle;
+        border-top:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+}
+
+.enabled, .pass-img {
+        background: url("check_green.png")  no-repeat center;
+}
+
+.disabled, .fail-img {
+        background: url("cross_red.png")  no-repeat center;
+}
+
+.pass-color {
+        background-color:#ccffaa;
+}
+
+.fail-color
+{
+        background-color:#ffc5c5;
+}
+
+.near-color {
+        background-color:#ffff99;
+}
+
+.disabled-color {
+        background-color:#dddddd;
+}
+
+td {
+        display: table-cell;
+
+        border-right:1px solid #ccc;
+        border-left:1px solid #ccc;
+
+        padding:0.2em 0.6em;
+        height:1.4em;
+        text-align:left;
+        vertical-align:top;
+}
+
+th {
+        display: table-cell;
+
+        border-top:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        border-right:1px solid #ccc;
+        border-left:1px solid #ccc;
+
+        padding:0.2em 0.6em;
+        height:2.5em;
+        text-align:center;
+        vertical-align:middle;
+        font-weight: 700;
+        background-color:#cbd9ff;
+        color:#1559B3;
+}
+
+.hotspot {color:#900; padding-bottom:1px; border-bottom:1px dotted #900; cursor:pointer}
+
+
+#tt {
+ position:absolute;
+ display:block;
+ background:url(images/tt_left.gif) top left no-repeat;
+ }
+ #tttop {
+ display:block;
+ height:5px;
+ margin-left:5px;
+ background:url(images/tt_top.gif) top right no-repeat;
+ overflow:hidden;
+ }
+ #ttcont {
+ display:block;
+ padding:2px 12px 3px 7px;
+ margin-left:5px;
+ background:#666;
+ color:#fff;
+ }
+#ttbot {
+display:block;
+height:5px;
+margin-left:5px;
+background:url(images/tt_bottom.gif) top right no-repeat;
+overflow:hidden;
+}
+
+#text {margin:50px auto; width:500px}

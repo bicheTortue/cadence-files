@@ -1,0 +1,22 @@
+// Verilog HDL and netlist files of
+// "barbaLib LSTM-GRU schematic"
+
+// Netlisted models
+
+// netlist file - barbaLib, inverter, schematic.
+ihnl/cds0/netlist
+// netlist file - barbaLib, memcell, schematic.
+ihnl/cds1/netlist
+// netlist file - barbaLib, sigmoid, schematic.
+ihnl/cds2/netlist
+// netlist file - barbaLib, tanh, schematic.
+ihnl/cds3/netlist
+// netlist file - barbaLib, LSTM-GRU, schematic.
+ihnl/cds4/netlist
+
+
+// End HDL models
+
+// globals file 
+hdlFilesDir/cds_globals.v
+

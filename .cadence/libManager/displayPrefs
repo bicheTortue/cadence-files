@@ -1,0 +1,22 @@
+<!DOCTYPE CDS_DISPLAY_PREFS>
+<DISPLAY_PREFS>
+  <DISPLAY NAME="PDK">
+    <ICON NAME="instance.png"/>
+    <COLOR>
+      <RED>0</RED>
+      <GREEN>170</GREEN>
+      <BLUE>0</BLUE>
+    </COLOR>
+  </DISPLAY>
+  <DISPLAY NAME="Cadence_lib">
+    <ICON NAME="library.png"/>
+  </DISPLAY>
+  <DISPLAY NAME="Cadence_top">
+    <ICON NAME="library-checked.png"/>
+    <COLOR>
+      <RED>170</RED>
+      <GREEN>0</GREEN>
+      <BLUE>0</BLUE>
+    </COLOR>
+  </DISPLAY>
+</DISPLAY_PREFS>

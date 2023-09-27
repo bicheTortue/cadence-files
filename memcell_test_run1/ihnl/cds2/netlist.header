@@ -1,0 +1,14 @@
+// Library - barbaLib, Cell - memcell_test, View - schematic
+// LAST TIME SAVED: Apr 17 10:29:17 2023
+// NETLIST TIME: Apr 27 15:45:06 2023
+`timescale 1ns / 1ns 
+
+module memcell_test (  );
+
+
+specify 
+    specparam CDS_LIBNAME  = "barbaLib";
+    specparam CDS_CELLNAME = "memcell_test";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

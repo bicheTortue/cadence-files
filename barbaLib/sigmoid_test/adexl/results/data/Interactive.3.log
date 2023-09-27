@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Jun  7 15:56:51 2023 
+Best design point: 1
+Design specs: 
+	barbaLib:sigmoid_test:1	corner	Nominal - 
+Design parameters: 
+	vdd		1.8
+	v3		800m
+	v2		635m
+	v1		1.1
+	vin		0
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Wed Jun  7 15:56:58 2023 

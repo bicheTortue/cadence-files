@@ -1,0 +1,17 @@
+cellViewCounterTable = makeTable('cellViewCounterTableType nil)
+cellViewCounterTable['("barbaLib" "memcell" "symbol" )] =  102
+cellViewCounterTable['("analogLib" "vdd" "symbol" )] =  20
+cellViewCounterTable['("barbaLib" "inverter" "schematic" )] =  94
+cellViewCounterTable['("analogLib" "res" "symbol" )] =  28
+cellViewCounterTable['("barbaLib" "opAmp" "symbol" )] =  119
+cellViewCounterTable['("barbaLib" "memcell_test" "schematic" )] =  406
+cellViewCounterTable['("barbaLib" "memcell" "schematic" )] =  801
+cellViewCounterTable['("analogLib" "vpulse" "symbol" )] =  34
+cellViewCounterTable['("analogLib" "cap" "symbol" )] =  30
+cellViewCounterTable['("basic" "ipin" "symbol" )] =  22
+cellViewCounterTable['("barbaLib" "inverter" "symbol" )] =  73
+cellViewCounterTable['("tsmcN65" "nch" "symbol" )] =  53
+cellViewCounterTable['("analogLib" "gnd" "symbol" )] =  19
+cellViewCounterTable['("analogLib" "vdc" "symbol" )] =  33
+cellViewCounterTable['("basic" "opin" "symbol" )] =  22
+cellViewCounterTable['("tsmcN65" "pch" "symbol" )] =  54

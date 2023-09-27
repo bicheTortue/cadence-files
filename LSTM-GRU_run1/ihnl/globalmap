@@ -1,0 +1,26 @@
+CADENCE IHNL11140
+$model
+voltageMult voltageMult
+barbaLib/memcell/schematic memcell
+vpulse vpulse
+cap cap
+pch pch
+res res
+barbaLib/inverter/schematic inverter
+barbaLib/sigmoid/schematic sigmoid
+barbaLib/LSTM-GRU/schematic cdsModule_0
+nch nch
+barbaLib/tanh/schematic tanh
+vdc vdc
+idc idc
+$endmodel
+$net
+gnd! cds_globals.gnd_
+e1! cds_globals.e1_
+vdd! cds_globals.vdd_
+e2! cds_globals.e2_
+e3! cds_globals.e3_
+e4! cds_globals.e4_
+$endnet
+$param
+$endparam

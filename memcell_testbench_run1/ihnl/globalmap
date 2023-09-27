@@ -1,0 +1,19 @@
+CADENCE IHNL11140
+$model
+barbaLib/COMPP/schematic COMPP
+vpulse vpulse
+cap cap
+pch pch
+res res
+barbaLib/inverter/schematic inverter
+nch nch
+barbaLib/memcell_testbench/schematic memcell_testbench
+vdc vdc
+idc idc
+$endmodel
+$net
+gnd! cds_globals.gnd_
+vdd! cds_globals.vdd_
+$endnet
+$param
+$endparam

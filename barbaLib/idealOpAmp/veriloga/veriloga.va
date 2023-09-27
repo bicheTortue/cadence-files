@@ -1,0 +1,16 @@
+// VerilogA for barbaLib, opAmp, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module idealOpAmp(out, nin, pin);
+output out;
+input pin, nin;
+electrical pin, nin, out;
+parameter real gain = 1e5;
+branch (pin,nin) in;
+
+    analog begin
+		V(out) <+ (V(pin) - V(nin)) * gain;
+    end
+endmodule

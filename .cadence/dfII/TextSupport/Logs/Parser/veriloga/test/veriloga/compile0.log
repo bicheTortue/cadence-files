@@ -1,0 +1,7 @@
+2023/02/16 13:20:48 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/02/16 13:20:48 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+Reading file:  /home/vbarbaza/thesis/test/memristor/veriloga/veriloga.va
+Reading file: 
+        /opt/cadence/spectre191/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /opt/cadence/spectre191/tools.lnx86/spectre/etc/ahdl/disciplines.vams

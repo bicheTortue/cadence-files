@@ -1,0 +1,10 @@
+( ( net
+( "e2!" "cds_globals.e2_" )
+( "vdd!" "cds_globals.vdd_" )
+( "gnd!" "cds_globals.gnd_" )
+( "e3!" "cds_globals.e3_" )
+( "e4!" "cds_globals.e4_" )
+( "e1!" "cds_globals.e1_" )
+ )
+( "LSTM-GRU" "cdsModule_0" )
+ )

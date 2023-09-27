@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetTestDoc.xsl"?>
+<ROOT name="barbaLib:truc:1" runMode="Single Run, Sweeps and Corners" enableCpkPerc="disEnable" dsCreationDateTime="6 Jun 2023 14:54:19" parasiticsRunMode="None" mainfnameprefix="Interactive.7" dsUserName="vbarbaza" dsAuthorName="">
+    <RESULTSSUMMARY>
+        <RSITEM expName="value(VT(&quot;/net88&quot;) 8.5e-05)" expType="expr" resultName="outputVal" maxVal="791.5m" minVal="788.7m" test="barbaLib:truc:1"/>
+    </RESULTSSUMMARY>
+    <CORNERSPECS/>
+    <WAVEFORMS>
+        <WAVEFORM fileName="dsImg_window_22.png" isWaveQuickPlot="false" test="barbaLib:truc:1"/>
+    </WAVEFORMS>
+</ROOT>

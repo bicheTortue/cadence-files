@@ -1,0 +1,36 @@
+// Library - barbaLib, Cell - memcell_testbench, View - schematic
+// LAST TIME SAVED: Apr 27 16:27:17 2023
+// NETLIST TIME: Apr 27 16:29:02 2023
+`timescale 1ns / 1ns 
+
+module memcell_testbench (  );
+
+
+specify 
+    specparam CDS_LIBNAME  = "barbaLib";
+    specparam CDS_CELLNAME = "memcell_testbench";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+nch  M5 ( .D(net1), .B(memory), .G(enIn), .S(memory));
+nch  M3 ( .D(net2), .B(out), .G(enOut), .S(out));
+nch  M0 ( .D(inOp), .B(net1), .G(enIn), .S(net1));
+pch  M6 ( .D(memory), .B(net1), .G(net3), .S(net1));
+pch  M2 ( .D(out), .B(net2), .G(net4), .S(net2));
+pch  M1 ( .D(net1), .B(inOp), .G(net3), .S(inOp));
+opAmp I0 ( net2, memory, net2);
+cap  C1 ( .MINUS(cds_globals.gnd_), .PLUS(out));
+cap  C0 ( .MINUS(cds_globals.gnd_), .PLUS(memory));
+vpulse #(T)   V0 ( .PLUS(enIn), .MINUS(cds_globals.gnd_));
+vpulse #(T)   V1 ( .PLUS(in), .MINUS(cds_globals.gnd_));
+vpulse #(3*T/2)   V2 ( .PLUS(enOut), .MINUS(cds_globals.gnd_));
+inverter I2 ( net3, enIn);
+inverter I3 ( net4, enOut);
+vdc  V5 ( .PLUS(Vcm), .MINUS(cds_globals.gnd_));
+vdc  V3 ( .PLUS(cds_globals.vdd_), .MINUS(cds_globals.gnd_));
+COMPP I10 ( inOp, cds_globals.gnd_, cds_globals.vdd_, idc, net5, Vcm);
+res  R1 ( .MINUS(inOp), .PLUS(net5));
+res  R0 ( .MINUS(net5), .PLUS(in));
+idc  V6 ( .PLUS(idc), .MINUS(cds_globals.gnd_));
+
+endmodule

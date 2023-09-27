@@ -1,0 +1,16 @@
+// VerilogA for barbaLib, idealSigmoid, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module idealTanh(in, out);
+output out;
+input in;
+electrical in, out;
+parameter real vcm=0.9;//Dirty way of setting Vcm, will not be an issue with real components
+
+analog begin
+    V(out)<+ (0.1*tanh((V(in)-vcm)*10))+vcm;
+end
+
+endmodule

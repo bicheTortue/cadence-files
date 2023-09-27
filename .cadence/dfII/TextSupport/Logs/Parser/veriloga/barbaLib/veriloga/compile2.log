@@ -1,0 +1,16 @@
+Reading file:  /home/vbarbaza/thesis/barbaLib/tmp/veriloga/veriloga.va
+
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-2259): "The<<--?  values for those nodes that did not
+        converge on the last Newton iteration are given below.  The manner in
+        which the convergence criteria were not satisfied is also given."
+        "/home/vbarbaza/thesis/barbaLib/tmp/veriloga/veriloga.va", line 1:
+        syntax error.
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1086):
+        "/home/vbarbaza/thesis/barbaLib/tmp/veriloga/veriloga.va", line 1:
+        `not' is not a reserved keyword now but will be one in a future
+        release. Parsing `not' as an identifier for now.
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-1814): Maximum allowable errors exceeded. Exiting AHDL
+        compilation....

@@ -1,0 +1,17 @@
+simVerilogNetlistFileList = '(
+    (("barbaLib" "memcell_test") 
+	("cds2/netlist" "cds2/map" "schematic")
+    ) 
+    (("barbaLib" "memcell") 
+	("cds1/netlist" "cds1/map" "schematic")
+    ) 
+    (("barbaLib" "inverter") 
+	("cds0/netlist" "cds0/map" "schematic")
+    )
+)
+simVerilogNetlistFileLibList = '("barbaLib")
+simVerilogNetlistFileCellList = '(("barbaLib" 
+	("inverter" "memcell" "memcell_test")
+    )
+)
+hnlIncrementalDirectory = '"ihnl"

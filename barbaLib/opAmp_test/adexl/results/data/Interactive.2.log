@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Mar 21 15:26:12 2023 
+Best design point: 1
+Design specs: 
+	barbaLib:opAmp_test:1	corner	Nominal - 
+Design parameters: 
+	vin		1
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Tue Mar 21 15:26:19 2023 

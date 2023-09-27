@@ -1,0 +1,96 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = barbaLib
+	Cell         = allG
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = barbaLib:allG:1_none_Interactive.0
+	Results DB   = /home/vbarbaza/thesis/barbaLib/allG/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/vbarbaza/simulation/barbaLib/allG/adexl/results/data/Interactive.0/1/barbaLib:allG:1
+	Results Loc  = /home/vbarbaza/simulation/barbaLib/allG/adexl/results/data
+	Project Dir  = /home/vbarbaza/simulation
+	Setup DB loc = /home/vbarbaza/thesis/barbaLib/allG/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ barbaLib:allG:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var R = "505k"
+Setting var Rf = "505k"
+Setting var T = "40e-6"
+Setting var in0step0 = "1.5m"
+Setting var in0step1 = "2.3m"
+Setting temp(T) = 27
+Setting var vdd = "1.8"
+
+*Info*    Netlist Directory =
+          /home/vbarbaza/simulation/barbaLib/allG/adexl/results/data/Interactive.0/1/barbaLib:allG:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vbarbaza/simulation/barbaLib/allG/adexl/results/data/Interactive.0/1/barbaLib:allG:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Jun  2 11:40:39 2023
+End netlisting Jun  2 11:40:39 2023
+
+Netlisting Statistics:
+	Number of components:  302
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ barbaLib:allG:1 ] for
+          Point ID (0 1).
+
+Delete psf data in /home/vbarbaza/simulation/barbaLib/allG/adexl/results/data/Interactive.0/1/barbaLib:allG:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          barbaLib:allG:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables2".
+To save future changes, copy variables to cellView before exiting.

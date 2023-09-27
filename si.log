@@ -1,0 +1,23 @@
+2023/05/03 17:25:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/05/03 17:25:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+Running Artist Hierarchical Netlisting ...
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+MPS timeout is set to '60' seconds.
+Initializing from libInit.il for library tsmcN65...
+   --  /opt/pdk/tsmcN65/tsmcN65/../skill/pc65p1_1.cdn
+*Error* loadContext: could not open file - "//opt/pdk/tsmcN65/tsmcN65/../skill/64bit/pc65p1_1.cdn"
+MPS timeout is set to '60' seconds.
+*Error*   ERROR DETECTED IN NETLISTING, netlist bypass flag set.
+*Error*   Could not find netlist procedure: 'tsmcCdlSubcktCall'
+             component   : nch
+             named       : /M0
+             in cellview : inverter/schematic
+             of library  : barbaLib
+End netlisting May  3 17:25:30 2023

@@ -1,0 +1,4 @@
+nch  M0 ( .D(out), .B(cds_globals.gnd_), .G(in), .S(cds_globals.gnd_));
+pch  M1 ( .D(out), .B(cds_globals.vdd_), .G(in), .S(cds_globals.vdd_));
+
+endmodule

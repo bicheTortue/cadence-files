@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("adc_sigma_delta" "strong_arm_tb" "schematic" "spectre")
+descriptionText = "None"

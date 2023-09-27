@@ -1,0 +1,7 @@
+#!/bin/sh
+cdsVncserver :95
+sleep 3
+cd /home/vbarbaza/thesis
+virtuoso -noautostart -mpssession "virtuoso666703" -mpshost "figaro.inesc-id.pt" -davinciService "DaVinciService_666703_1695772285" -log '/home/vbarbaza/thesis/logs_vbarbaza/logs0/Job0.log'  -licenseLockFileName '/home/vbarbaza/thesis/.tmp_vbarbaza/.figaro.inesc-id.pt_666703'  -interactiveA -interactiveE -interactiveRTT -axlChildIdFlag 0 1>/dev/null  2>/dev/null 
+exit $?
+

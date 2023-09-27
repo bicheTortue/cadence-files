@@ -1,0 +1,16 @@
+//Revision 6
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config adc_complete;
+design adc_sigma_delta.adc_complete:schematic;
+liblist adc_sigma_delta;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig

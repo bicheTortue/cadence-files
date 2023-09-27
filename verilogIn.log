@@ -1,0 +1,16 @@
+@(#)$CDS: ihdl version 6.1.8-64b 09/22/2020 19:02 (sjfhw316) $  Wed May  3 16:54:40 2023
+
+WARNING (VERILOGIN-19): The library, sample, is not specified in the cds.lib file. Add the library in the
+cds.lib file and run the command again.
+INFO (VERILOGIN-589): Using xmvlog binary for compilation.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module inverter. Therefore using library
+barbaLib, cell inverter, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module memristor. Therefore using library
+barbaLib, cell memristor, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module res. Therefore using library
+analogLib, cell res, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module nch. Therefore using library
+tsmcN65, cell nch, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol tests.
+INFO (VERILOGIN-372): Checked-in schematic tests.
+INFO (VERILOGIN-206): End of Logfile.

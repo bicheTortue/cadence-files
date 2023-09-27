@@ -1,0 +1,5068 @@
+===================
+Spice In Log File
+===================
+Parameter file: /tmp/spiceInPq66703
+Import Parameters:
+	Netlist file name: /home/vbarbaza/thesis/truc.sp
+	Output library name: barbaLib
+	Output View Type: schematic
+	Schematic view name: schematic
+	Netlist view name: netlist_tmp
+	Reference Library List: analogLib tsmcN65 barbaLib 
+	Top cell: top
+	Device-mapping file name: /home/vbarbaza/thesis/mappingSpice
+	Master Cell for Ground: gnd
+	Schematic Generation parameter file: /tmp/schOpts_spiceInPq66703
+	Simulator: spectre
+	Output Simulator: spectre
+	paramCaseValue: default
+	Language: SPICE
+Total number of files: 1.
+
+Netlist File: /home/vbarbaza/thesis/truc.sp.
+Total number of Subckts: 1.
+
+********
+Created barbaLib.truc:netlist_tmp
+
+	Total number of Insts: 364.
+
+	Inst: R0
+		Created net 'netIn0'.
+		Created net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R0'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R1
+		Found net 'netIn0'.
+		Created net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R1'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R2
+		Created net 'netHid0'.
+		Found net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R2'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R3
+		Found net 'netHid0'.
+		Found net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R3'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R4
+		Created net 'netHid1'.
+		Found net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R4'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R5
+		Found net 'netHid1'.
+		Found net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R5'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R6
+		Created net 'netHid2'.
+		Found net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R6'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R7
+		Found net 'netHid2'.
+		Found net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R7'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R8
+		Created net 'netHid3'.
+		Found net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R8'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R9
+		Found net 'netHid3'.
+		Found net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R9'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R10
+		Created net 'netBias'.
+		Found net 'net2'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R10'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net2' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='420000'.
+
+	Inst: R11
+		Found net 'netBias'.
+		Found net 'net3'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R11'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net3' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='590000'.
+
+	Inst: M0
+		Found net 'net2'.
+		Created net 'e0'.
+		Created net 'net0'.
+		Found net 'net0'.
+		Created net 'nch'.
+
+		Master Cell: 'nch'.
+		Did not find 'analogLib.nch:symbol'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M0'.
+		Created connection between net 'net2' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net0' and term 'S'.
+		Created connection between net 'net0' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M1
+		Found net 'net0'.
+		Created net 'ne0'.
+		Found net 'net2'.
+		Found net 'net2'.
+		Created net 'pch'.
+
+		Master Cell: 'pch'.
+		Did not find 'analogLib.pch:symbol'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M1'.
+		Created connection between net 'net0' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net2' and term 'S'.
+		Created connection between net 'net2' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M2
+		Found net 'net3'.
+		Found net 'e0'.
+		Created net 'net1'.
+		Found net 'net1'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M2'.
+		Created connection between net 'net3' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net1' and term 'S'.
+		Created connection between net 'net1' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M3
+		Found net 'net1'.
+		Found net 'ne0'.
+		Found net 'net3'.
+		Found net 'net3'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M3'.
+		Created connection between net 'net1' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net3' and term 'S'.
+		Created connection between net 'net3' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R12
+		Found net 'netIn0'.
+		Created net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R12'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R13
+		Found net 'netIn0'.
+		Created net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R13'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R14
+		Found net 'netHid0'.
+		Found net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R14'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R15
+		Found net 'netHid0'.
+		Found net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R15'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R16
+		Found net 'netHid1'.
+		Found net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R16'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R17
+		Found net 'netHid1'.
+		Found net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R17'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R18
+		Found net 'netHid2'.
+		Found net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R18'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R19
+		Found net 'netHid2'.
+		Found net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R19'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R20
+		Found net 'netHid3'.
+		Found net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R20'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R21
+		Found net 'netHid3'.
+		Found net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R21'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R22
+		Found net 'netBias'.
+		Found net 'net4'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R22'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net4' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='430000'.
+
+	Inst: R23
+		Found net 'netBias'.
+		Found net 'net5'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R23'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net5' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='580000'.
+
+	Inst: M4
+		Found net 'net4'.
+		Created net 'e1'.
+		Found net 'net0'.
+		Found net 'net0'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M4'.
+		Created connection between net 'net4' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net0' and term 'S'.
+		Created connection between net 'net0' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M5
+		Found net 'net0'.
+		Created net 'ne1'.
+		Found net 'net4'.
+		Found net 'net4'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M5'.
+		Created connection between net 'net0' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net4' and term 'S'.
+		Created connection between net 'net4' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M6
+		Found net 'net5'.
+		Found net 'e1'.
+		Found net 'net1'.
+		Found net 'net1'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M6'.
+		Created connection between net 'net5' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net1' and term 'S'.
+		Created connection between net 'net1' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M7
+		Found net 'net1'.
+		Found net 'ne1'.
+		Found net 'net5'.
+		Found net 'net5'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M7'.
+		Created connection between net 'net1' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net5' and term 'S'.
+		Created connection between net 'net5' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R24
+		Found net 'netIn0'.
+		Created net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R24'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R25
+		Found net 'netIn0'.
+		Created net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R25'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R26
+		Found net 'netHid0'.
+		Found net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R26'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R27
+		Found net 'netHid0'.
+		Found net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R27'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R28
+		Found net 'netHid1'.
+		Found net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R28'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R29
+		Found net 'netHid1'.
+		Found net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R29'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R30
+		Found net 'netHid2'.
+		Found net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R30'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R31
+		Found net 'netHid2'.
+		Found net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R31'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R32
+		Found net 'netHid3'.
+		Found net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R32'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R33
+		Found net 'netHid3'.
+		Found net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R33'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R34
+		Found net 'netBias'.
+		Found net 'net6'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R34'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net6' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='430000'.
+
+	Inst: R35
+		Found net 'netBias'.
+		Found net 'net7'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R35'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net7' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='580000'.
+
+	Inst: M8
+		Found net 'net6'.
+		Created net 'e2'.
+		Found net 'net0'.
+		Found net 'net0'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M8'.
+		Created connection between net 'net6' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net0' and term 'S'.
+		Created connection between net 'net0' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M9
+		Found net 'net0'.
+		Created net 'ne2'.
+		Found net 'net6'.
+		Found net 'net6'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M9'.
+		Created connection between net 'net0' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net6' and term 'S'.
+		Created connection between net 'net6' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M10
+		Found net 'net7'.
+		Found net 'e2'.
+		Found net 'net1'.
+		Found net 'net1'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M10'.
+		Created connection between net 'net7' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net1' and term 'S'.
+		Created connection between net 'net1' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M11
+		Found net 'net1'.
+		Found net 'ne2'.
+		Found net 'net7'.
+		Found net 'net7'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M11'.
+		Created connection between net 'net1' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net7' and term 'S'.
+		Created connection between net 'net7' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R36
+		Found net 'netIn0'.
+		Created net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R36'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R37
+		Found net 'netIn0'.
+		Created net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R37'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R38
+		Found net 'netHid0'.
+		Found net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R38'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R39
+		Found net 'netHid0'.
+		Found net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R39'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R40
+		Found net 'netHid1'.
+		Found net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R40'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R41
+		Found net 'netHid1'.
+		Found net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R41'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R42
+		Found net 'netHid2'.
+		Found net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R42'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R43
+		Found net 'netHid2'.
+		Found net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R43'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R44
+		Found net 'netHid3'.
+		Found net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R44'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R45
+		Found net 'netHid3'.
+		Found net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R45'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R46
+		Found net 'netBias'.
+		Found net 'net8'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R46'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net8' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='430000'.
+
+	Inst: R47
+		Found net 'netBias'.
+		Found net 'net9'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R47'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net9' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='580000'.
+
+	Inst: M12
+		Found net 'net8'.
+		Created net 'e3'.
+		Found net 'net0'.
+		Found net 'net0'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M12'.
+		Created connection between net 'net8' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net0' and term 'S'.
+		Created connection between net 'net0' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M13
+		Found net 'net0'.
+		Created net 'ne3'.
+		Found net 'net8'.
+		Found net 'net8'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M13'.
+		Created connection between net 'net0' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net8' and term 'S'.
+		Created connection between net 'net8' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M14
+		Found net 'net9'.
+		Found net 'e3'.
+		Found net 'net1'.
+		Found net 'net1'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M14'.
+		Created connection between net 'net9' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net1' and term 'S'.
+		Created connection between net 'net1' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M15
+		Found net 'net1'.
+		Found net 'ne3'.
+		Found net 'net9'.
+		Found net 'net9'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M15'.
+		Created connection between net 'net1' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net9' and term 'S'.
+		Created connection between net 'net9' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: XopAmp0
+		Found net 'net0'.
+		Created net 'net10'.
+		Created net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Did not find 'analogLib.opAmp:symbol'.
+		Did not find 'tsmcN65.opAmp:symbol'.
+		Master cellview barbaLib.opAmp:schematic found.
+		Created instance 'XopAmp0'.
+		Created connection between net 'net0' and term 'nin'.
+		Created connection between net 'net10' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R48
+		Found net 'net0'.
+		Found net 'net10'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R48'.
+		Created connection between net 'net0' and term 'MINUS'.
+		Created connection between net 'net10' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: R49
+		Found net 'net10'.
+		Found net 'net1'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R49'.
+		Created connection between net 'net10' and term 'MINUS'.
+		Created connection between net 'net1' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: XopAmp1
+		Found net 'net1'.
+		Created net 'net11'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:schematic' found.
+		Created instance 'XopAmp1'.
+		Created connection between net 'net1' and term 'nin'.
+		Created connection between net 'net11' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R50
+		Found net 'net1'.
+		Found net 'net11'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R50'.
+		Created connection between net 'net1' and term 'MINUS'.
+		Created connection between net 'net11' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='Rf'.
+
+	Inst: R51
+		Found net 'netIn0'.
+		Created net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R51'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R52
+		Found net 'netIn0'.
+		Created net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R52'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R53
+		Found net 'netHid0'.
+		Found net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R53'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R54
+		Found net 'netHid0'.
+		Found net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R54'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R55
+		Found net 'netHid1'.
+		Found net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R55'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R56
+		Found net 'netHid1'.
+		Found net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R56'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R57
+		Found net 'netHid2'.
+		Found net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R57'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R58
+		Found net 'netHid2'.
+		Found net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R58'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R59
+		Found net 'netHid3'.
+		Found net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R59'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R60
+		Found net 'netHid3'.
+		Found net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R60'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R61
+		Found net 'netBias'.
+		Found net 'net14'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R61'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net14' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='450000'.
+
+	Inst: R62
+		Found net 'netBias'.
+		Found net 'net15'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R62'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net15' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='560000'.
+
+	Inst: M16
+		Found net 'net14'.
+		Found net 'e0'.
+		Created net 'net12'.
+		Found net 'net12'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M16'.
+		Created connection between net 'net14' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net12' and term 'S'.
+		Created connection between net 'net12' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M17
+		Found net 'net12'.
+		Found net 'ne0'.
+		Found net 'net14'.
+		Found net 'net14'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M17'.
+		Created connection between net 'net12' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net14' and term 'S'.
+		Created connection between net 'net14' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M18
+		Found net 'net15'.
+		Found net 'e0'.
+		Created net 'net13'.
+		Found net 'net13'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M18'.
+		Created connection between net 'net15' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net13' and term 'S'.
+		Created connection between net 'net13' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M19
+		Found net 'net13'.
+		Found net 'ne0'.
+		Found net 'net15'.
+		Found net 'net15'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M19'.
+		Created connection between net 'net13' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net15' and term 'S'.
+		Created connection between net 'net15' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R63
+		Found net 'netIn0'.
+		Created net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R63'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R64
+		Found net 'netIn0'.
+		Created net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R64'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R65
+		Found net 'netHid0'.
+		Found net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R65'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R66
+		Found net 'netHid0'.
+		Found net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R66'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R67
+		Found net 'netHid1'.
+		Found net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R67'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R68
+		Found net 'netHid1'.
+		Found net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R68'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R69
+		Found net 'netHid2'.
+		Found net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R69'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R70
+		Found net 'netHid2'.
+		Found net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R70'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R71
+		Found net 'netHid3'.
+		Found net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R71'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R72
+		Found net 'netHid3'.
+		Found net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R72'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R73
+		Found net 'netBias'.
+		Found net 'net16'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R73'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net16' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='460000'.
+
+	Inst: R74
+		Found net 'netBias'.
+		Found net 'net17'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R74'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net17' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='550000'.
+
+	Inst: M20
+		Found net 'net16'.
+		Found net 'e1'.
+		Found net 'net12'.
+		Found net 'net12'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M20'.
+		Created connection between net 'net16' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net12' and term 'S'.
+		Created connection between net 'net12' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M21
+		Found net 'net12'.
+		Found net 'ne1'.
+		Found net 'net16'.
+		Found net 'net16'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M21'.
+		Created connection between net 'net12' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net16' and term 'S'.
+		Created connection between net 'net16' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M22
+		Found net 'net17'.
+		Found net 'e1'.
+		Found net 'net13'.
+		Found net 'net13'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M22'.
+		Created connection between net 'net17' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net13' and term 'S'.
+		Created connection between net 'net13' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M23
+		Found net 'net13'.
+		Found net 'ne1'.
+		Found net 'net17'.
+		Found net 'net17'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M23'.
+		Created connection between net 'net13' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net17' and term 'S'.
+		Created connection between net 'net17' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R75
+		Found net 'netIn0'.
+		Created net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R75'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R76
+		Found net 'netIn0'.
+		Created net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R76'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R77
+		Found net 'netHid0'.
+		Found net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R77'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R78
+		Found net 'netHid0'.
+		Found net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R78'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R79
+		Found net 'netHid1'.
+		Found net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R79'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R80
+		Found net 'netHid1'.
+		Found net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R80'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R81
+		Found net 'netHid2'.
+		Found net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R81'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R82
+		Found net 'netHid2'.
+		Found net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R82'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R83
+		Found net 'netHid3'.
+		Found net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R83'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R84
+		Found net 'netHid3'.
+		Found net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R84'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R85
+		Found net 'netBias'.
+		Found net 'net18'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R85'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net18' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='460000'.
+
+	Inst: R86
+		Found net 'netBias'.
+		Found net 'net19'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R86'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net19' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='550000'.
+
+	Inst: M24
+		Found net 'net18'.
+		Found net 'e2'.
+		Found net 'net12'.
+		Found net 'net12'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M24'.
+		Created connection between net 'net18' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net12' and term 'S'.
+		Created connection between net 'net12' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M25
+		Found net 'net12'.
+		Found net 'ne2'.
+		Found net 'net18'.
+		Found net 'net18'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M25'.
+		Created connection between net 'net12' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net18' and term 'S'.
+		Created connection between net 'net18' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M26
+		Found net 'net19'.
+		Found net 'e2'.
+		Found net 'net13'.
+		Found net 'net13'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M26'.
+		Created connection between net 'net19' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net13' and term 'S'.
+		Created connection between net 'net13' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M27
+		Found net 'net13'.
+		Found net 'ne2'.
+		Found net 'net19'.
+		Found net 'net19'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M27'.
+		Created connection between net 'net13' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net19' and term 'S'.
+		Created connection between net 'net19' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R87
+		Found net 'netIn0'.
+		Created net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R87'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R88
+		Found net 'netIn0'.
+		Created net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R88'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R89
+		Found net 'netHid0'.
+		Found net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R89'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R90
+		Found net 'netHid0'.
+		Found net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R90'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R91
+		Found net 'netHid1'.
+		Found net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R91'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R92
+		Found net 'netHid1'.
+		Found net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R92'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R93
+		Found net 'netHid2'.
+		Found net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R93'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R94
+		Found net 'netHid2'.
+		Found net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R94'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R95
+		Found net 'netHid3'.
+		Found net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R95'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R96
+		Found net 'netHid3'.
+		Found net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R96'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R97
+		Found net 'netBias'.
+		Found net 'net20'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R97'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net20' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='460000'.
+
+	Inst: R98
+		Found net 'netBias'.
+		Found net 'net21'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R98'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net21' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='550000'.
+
+	Inst: M28
+		Found net 'net20'.
+		Found net 'e3'.
+		Found net 'net12'.
+		Found net 'net12'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M28'.
+		Created connection between net 'net20' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net12' and term 'S'.
+		Created connection between net 'net12' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M29
+		Found net 'net12'.
+		Found net 'ne3'.
+		Found net 'net20'.
+		Found net 'net20'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M29'.
+		Created connection between net 'net12' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net20' and term 'S'.
+		Created connection between net 'net20' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M30
+		Found net 'net21'.
+		Found net 'e3'.
+		Found net 'net13'.
+		Found net 'net13'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M30'.
+		Created connection between net 'net21' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net13' and term 'S'.
+		Created connection between net 'net13' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M31
+		Found net 'net13'.
+		Found net 'ne3'.
+		Found net 'net21'.
+		Found net 'net21'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M31'.
+		Created connection between net 'net13' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net21' and term 'S'.
+		Created connection between net 'net21' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: XopAmp2
+		Found net 'net12'.
+		Created net 'net22'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp2'.
+		Created connection between net 'net12' and term 'nin'.
+		Created connection between net 'net22' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R99
+		Found net 'net12'.
+		Found net 'net22'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R99'.
+		Created connection between net 'net12' and term 'MINUS'.
+		Created connection between net 'net22' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: R100
+		Found net 'net22'.
+		Found net 'net13'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R100'.
+		Created connection between net 'net22' and term 'MINUS'.
+		Created connection between net 'net13' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: XopAmp3
+		Found net 'net13'.
+		Created net 'net23'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp3'.
+		Created connection between net 'net13' and term 'nin'.
+		Created connection between net 'net23' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R101
+		Found net 'net13'.
+		Found net 'net23'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R101'.
+		Created connection between net 'net13' and term 'MINUS'.
+		Created connection between net 'net23' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='Rf'.
+
+	Inst: R102
+		Found net 'netIn0'.
+		Created net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R102'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R103
+		Found net 'netIn0'.
+		Created net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R103'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R104
+		Found net 'netHid0'.
+		Found net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R104'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R105
+		Found net 'netHid0'.
+		Found net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R105'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R106
+		Found net 'netHid1'.
+		Found net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R106'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R107
+		Found net 'netHid1'.
+		Found net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R107'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R108
+		Found net 'netHid2'.
+		Found net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R108'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R109
+		Found net 'netHid2'.
+		Found net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R109'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R110
+		Found net 'netHid3'.
+		Found net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R110'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R111
+		Found net 'netHid3'.
+		Found net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R111'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R112
+		Found net 'netBias'.
+		Found net 'net26'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R112'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net26' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='500000'.
+
+	Inst: R113
+		Found net 'netBias'.
+		Found net 'net27'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R113'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net27' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='510000'.
+
+	Inst: M32
+		Found net 'net26'.
+		Found net 'e0'.
+		Created net 'net24'.
+		Found net 'net24'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M32'.
+		Created connection between net 'net26' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net24' and term 'S'.
+		Created connection between net 'net24' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M33
+		Found net 'net24'.
+		Found net 'ne0'.
+		Found net 'net26'.
+		Found net 'net26'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M33'.
+		Created connection between net 'net24' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net26' and term 'S'.
+		Created connection between net 'net26' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M34
+		Found net 'net27'.
+		Found net 'e0'.
+		Created net 'net25'.
+		Found net 'net25'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M34'.
+		Created connection between net 'net27' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net25' and term 'S'.
+		Created connection between net 'net25' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M35
+		Found net 'net25'.
+		Found net 'ne0'.
+		Found net 'net27'.
+		Found net 'net27'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M35'.
+		Created connection between net 'net25' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net27' and term 'S'.
+		Created connection between net 'net27' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R114
+		Found net 'netIn0'.
+		Created net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R114'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R115
+		Found net 'netIn0'.
+		Created net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R115'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R116
+		Found net 'netHid0'.
+		Found net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R116'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R117
+		Found net 'netHid0'.
+		Found net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R117'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R118
+		Found net 'netHid1'.
+		Found net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R118'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R119
+		Found net 'netHid1'.
+		Found net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R119'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R120
+		Found net 'netHid2'.
+		Found net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R120'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R121
+		Found net 'netHid2'.
+		Found net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R121'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R122
+		Found net 'netHid3'.
+		Found net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R122'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R123
+		Found net 'netHid3'.
+		Found net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R123'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R124
+		Found net 'netBias'.
+		Found net 'net28'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R124'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net28' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='510000'.
+
+	Inst: R125
+		Found net 'netBias'.
+		Found net 'net29'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R125'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net29' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='500000'.
+
+	Inst: M36
+		Found net 'net28'.
+		Found net 'e1'.
+		Found net 'net24'.
+		Found net 'net24'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M36'.
+		Created connection between net 'net28' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net24' and term 'S'.
+		Created connection between net 'net24' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M37
+		Found net 'net24'.
+		Found net 'ne1'.
+		Found net 'net28'.
+		Found net 'net28'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M37'.
+		Created connection between net 'net24' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net28' and term 'S'.
+		Created connection between net 'net28' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M38
+		Found net 'net29'.
+		Found net 'e1'.
+		Found net 'net25'.
+		Found net 'net25'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M38'.
+		Created connection between net 'net29' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net25' and term 'S'.
+		Created connection between net 'net25' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M39
+		Found net 'net25'.
+		Found net 'ne1'.
+		Found net 'net29'.
+		Found net 'net29'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M39'.
+		Created connection between net 'net25' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net29' and term 'S'.
+		Created connection between net 'net29' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R126
+		Found net 'netIn0'.
+		Created net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R126'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R127
+		Found net 'netIn0'.
+		Created net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R127'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R128
+		Found net 'netHid0'.
+		Found net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R128'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R129
+		Found net 'netHid0'.
+		Found net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R129'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R130
+		Found net 'netHid1'.
+		Found net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R130'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R131
+		Found net 'netHid1'.
+		Found net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R131'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R132
+		Found net 'netHid2'.
+		Found net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R132'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R133
+		Found net 'netHid2'.
+		Found net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R133'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R134
+		Found net 'netHid3'.
+		Found net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R134'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R135
+		Found net 'netHid3'.
+		Found net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R135'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R136
+		Found net 'netBias'.
+		Found net 'net30'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R136'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net30' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='510000'.
+
+	Inst: R137
+		Found net 'netBias'.
+		Found net 'net31'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R137'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net31' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='500000'.
+
+	Inst: M40
+		Found net 'net30'.
+		Found net 'e2'.
+		Found net 'net24'.
+		Found net 'net24'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M40'.
+		Created connection between net 'net30' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net24' and term 'S'.
+		Created connection between net 'net24' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M41
+		Found net 'net24'.
+		Found net 'ne2'.
+		Found net 'net30'.
+		Found net 'net30'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M41'.
+		Created connection between net 'net24' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net30' and term 'S'.
+		Created connection between net 'net30' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M42
+		Found net 'net31'.
+		Found net 'e2'.
+		Found net 'net25'.
+		Found net 'net25'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M42'.
+		Created connection between net 'net31' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net25' and term 'S'.
+		Created connection between net 'net25' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M43
+		Found net 'net25'.
+		Found net 'ne2'.
+		Found net 'net31'.
+		Found net 'net31'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M43'.
+		Created connection between net 'net25' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net31' and term 'S'.
+		Created connection between net 'net31' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R138
+		Found net 'netIn0'.
+		Created net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R138'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R139
+		Found net 'netIn0'.
+		Created net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R139'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R140
+		Found net 'netHid0'.
+		Found net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R140'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R141
+		Found net 'netHid0'.
+		Found net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R141'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R142
+		Found net 'netHid1'.
+		Found net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R142'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R143
+		Found net 'netHid1'.
+		Found net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R143'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R144
+		Found net 'netHid2'.
+		Found net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R144'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R145
+		Found net 'netHid2'.
+		Found net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R145'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R146
+		Found net 'netHid3'.
+		Found net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R146'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R147
+		Found net 'netHid3'.
+		Found net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R147'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R148
+		Found net 'netBias'.
+		Found net 'net32'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R148'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net32' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='510000'.
+
+	Inst: R149
+		Found net 'netBias'.
+		Found net 'net33'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R149'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net33' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='500000'.
+
+	Inst: M44
+		Found net 'net32'.
+		Found net 'e3'.
+		Found net 'net24'.
+		Found net 'net24'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M44'.
+		Created connection between net 'net32' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net24' and term 'S'.
+		Created connection between net 'net24' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M45
+		Found net 'net24'.
+		Found net 'ne3'.
+		Found net 'net32'.
+		Found net 'net32'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M45'.
+		Created connection between net 'net24' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net32' and term 'S'.
+		Created connection between net 'net32' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M46
+		Found net 'net33'.
+		Found net 'e3'.
+		Found net 'net25'.
+		Found net 'net25'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M46'.
+		Created connection between net 'net33' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net25' and term 'S'.
+		Created connection between net 'net25' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M47
+		Found net 'net25'.
+		Found net 'ne3'.
+		Found net 'net33'.
+		Found net 'net33'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M47'.
+		Created connection between net 'net25' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net33' and term 'S'.
+		Created connection between net 'net33' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: XopAmp4
+		Found net 'net24'.
+		Created net 'net34'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp4'.
+		Created connection between net 'net24' and term 'nin'.
+		Created connection between net 'net34' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R150
+		Found net 'net24'.
+		Found net 'net34'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R150'.
+		Created connection between net 'net24' and term 'MINUS'.
+		Created connection between net 'net34' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: R151
+		Found net 'net34'.
+		Found net 'net25'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R151'.
+		Created connection between net 'net34' and term 'MINUS'.
+		Created connection between net 'net25' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: XopAmp5
+		Found net 'net25'.
+		Created net 'net35'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp5'.
+		Created connection between net 'net25' and term 'nin'.
+		Created connection between net 'net35' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R152
+		Found net 'net25'.
+		Found net 'net35'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R152'.
+		Created connection between net 'net25' and term 'MINUS'.
+		Created connection between net 'net35' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='Rf'.
+
+	Inst: R153
+		Found net 'netIn0'.
+		Created net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R153'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R154
+		Found net 'netIn0'.
+		Created net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R154'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R155
+		Found net 'netHid0'.
+		Found net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R155'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R156
+		Found net 'netHid0'.
+		Found net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R156'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R157
+		Found net 'netHid1'.
+		Found net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R157'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R158
+		Found net 'netHid1'.
+		Found net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R158'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R159
+		Found net 'netHid2'.
+		Found net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R159'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R160
+		Found net 'netHid2'.
+		Found net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R160'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R161
+		Found net 'netHid3'.
+		Found net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R161'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R162
+		Found net 'netHid3'.
+		Found net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R162'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R163
+		Found net 'netBias'.
+		Found net 'net38'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R163'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net38' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='390000'.
+
+	Inst: R164
+		Found net 'netBias'.
+		Found net 'net39'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R164'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net39' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='620000'.
+
+	Inst: M48
+		Found net 'net38'.
+		Found net 'e0'.
+		Created net 'net36'.
+		Found net 'net36'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M48'.
+		Created connection between net 'net38' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net36' and term 'S'.
+		Created connection between net 'net36' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M49
+		Found net 'net36'.
+		Found net 'ne0'.
+		Found net 'net38'.
+		Found net 'net38'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M49'.
+		Created connection between net 'net36' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net38' and term 'S'.
+		Created connection between net 'net38' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M50
+		Found net 'net39'.
+		Found net 'e0'.
+		Created net 'net37'.
+		Found net 'net37'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M50'.
+		Created connection between net 'net39' and term 'D'.
+		Created connection between net 'e0' and term 'G'.
+		Created connection between net 'net37' and term 'S'.
+		Created connection between net 'net37' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M51
+		Found net 'net37'.
+		Found net 'ne0'.
+		Found net 'net39'.
+		Found net 'net39'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M51'.
+		Created connection between net 'net37' and term 'D'.
+		Created connection between net 'ne0' and term 'G'.
+		Created connection between net 'net39' and term 'S'.
+		Created connection between net 'net39' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R165
+		Found net 'netIn0'.
+		Created net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R165'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R166
+		Found net 'netIn0'.
+		Created net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R166'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R167
+		Found net 'netHid0'.
+		Found net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R167'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R168
+		Found net 'netHid0'.
+		Found net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R168'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R169
+		Found net 'netHid1'.
+		Found net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R169'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R170
+		Found net 'netHid1'.
+		Found net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R170'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R171
+		Found net 'netHid2'.
+		Found net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R171'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R172
+		Found net 'netHid2'.
+		Found net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R172'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R173
+		Found net 'netHid3'.
+		Found net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R173'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R174
+		Found net 'netHid3'.
+		Found net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R174'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R175
+		Found net 'netBias'.
+		Found net 'net40'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R175'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net40' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='440000'.
+
+	Inst: R176
+		Found net 'netBias'.
+		Found net 'net41'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R176'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net41' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='570000'.
+
+	Inst: M52
+		Found net 'net40'.
+		Found net 'e1'.
+		Found net 'net36'.
+		Found net 'net36'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M52'.
+		Created connection between net 'net40' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net36' and term 'S'.
+		Created connection between net 'net36' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M53
+		Found net 'net36'.
+		Found net 'ne1'.
+		Found net 'net40'.
+		Found net 'net40'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M53'.
+		Created connection between net 'net36' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net40' and term 'S'.
+		Created connection between net 'net40' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M54
+		Found net 'net41'.
+		Found net 'e1'.
+		Found net 'net37'.
+		Found net 'net37'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M54'.
+		Created connection between net 'net41' and term 'D'.
+		Created connection between net 'e1' and term 'G'.
+		Created connection between net 'net37' and term 'S'.
+		Created connection between net 'net37' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M55
+		Found net 'net37'.
+		Found net 'ne1'.
+		Found net 'net41'.
+		Found net 'net41'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M55'.
+		Created connection between net 'net37' and term 'D'.
+		Created connection between net 'ne1' and term 'G'.
+		Created connection between net 'net41' and term 'S'.
+		Created connection between net 'net41' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R177
+		Found net 'netIn0'.
+		Created net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R177'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R178
+		Found net 'netIn0'.
+		Created net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R178'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R179
+		Found net 'netHid0'.
+		Found net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R179'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R180
+		Found net 'netHid0'.
+		Found net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R180'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R181
+		Found net 'netHid1'.
+		Found net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R181'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R182
+		Found net 'netHid1'.
+		Found net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R182'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R183
+		Found net 'netHid2'.
+		Found net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R183'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R184
+		Found net 'netHid2'.
+		Found net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R184'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R185
+		Found net 'netHid3'.
+		Found net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R185'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R186
+		Found net 'netHid3'.
+		Found net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R186'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R187
+		Found net 'netBias'.
+		Found net 'net42'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R187'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net42' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='440000'.
+
+	Inst: R188
+		Found net 'netBias'.
+		Found net 'net43'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R188'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net43' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='570000'.
+
+	Inst: M56
+		Found net 'net42'.
+		Found net 'e2'.
+		Found net 'net36'.
+		Found net 'net36'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M56'.
+		Created connection between net 'net42' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net36' and term 'S'.
+		Created connection between net 'net36' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M57
+		Found net 'net36'.
+		Found net 'ne2'.
+		Found net 'net42'.
+		Found net 'net42'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M57'.
+		Created connection between net 'net36' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net42' and term 'S'.
+		Created connection between net 'net42' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M58
+		Found net 'net43'.
+		Found net 'e2'.
+		Found net 'net37'.
+		Found net 'net37'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M58'.
+		Created connection between net 'net43' and term 'D'.
+		Created connection between net 'e2' and term 'G'.
+		Created connection between net 'net37' and term 'S'.
+		Created connection between net 'net37' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M59
+		Found net 'net37'.
+		Found net 'ne2'.
+		Found net 'net43'.
+		Found net 'net43'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M59'.
+		Created connection between net 'net37' and term 'D'.
+		Created connection between net 'ne2' and term 'G'.
+		Created connection between net 'net43' and term 'S'.
+		Created connection between net 'net43' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: R189
+		Found net 'netIn0'.
+		Created net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R189'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='300000'.
+
+	Inst: R190
+		Found net 'netIn0'.
+		Created net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R190'.
+		Created connection between net 'netIn0' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='710000'.
+
+	Inst: R191
+		Found net 'netHid0'.
+		Found net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R191'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='400000'.
+
+	Inst: R192
+		Found net 'netHid0'.
+		Found net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R192'.
+		Created connection between net 'netHid0' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='610000'.
+
+	Inst: R193
+		Found net 'netHid1'.
+		Found net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R193'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R194
+		Found net 'netHid1'.
+		Found net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R194'.
+		Created connection between net 'netHid1' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R195
+		Found net 'netHid2'.
+		Found net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R195'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R196
+		Found net 'netHid2'.
+		Found net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R196'.
+		Created connection between net 'netHid2' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R197
+		Found net 'netHid3'.
+		Found net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R197'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='630000'.
+
+	Inst: R198
+		Found net 'netHid3'.
+		Found net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R198'.
+		Created connection between net 'netHid3' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='380000'.
+
+	Inst: R199
+		Found net 'netBias'.
+		Found net 'net44'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R199'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net44' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='440000'.
+
+	Inst: R200
+		Found net 'netBias'.
+		Found net 'net45'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R200'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net45' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='570000'.
+
+	Inst: M60
+		Found net 'net44'.
+		Found net 'e3'.
+		Found net 'net36'.
+		Found net 'net36'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M60'.
+		Created connection between net 'net44' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net36' and term 'S'.
+		Created connection between net 'net36' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M61
+		Found net 'net36'.
+		Found net 'ne3'.
+		Found net 'net44'.
+		Found net 'net44'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M61'.
+		Created connection between net 'net36' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net44' and term 'S'.
+		Created connection between net 'net44' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: M62
+		Found net 'net45'.
+		Found net 'e3'.
+		Found net 'net37'.
+		Found net 'net37'.
+		Found net 'nch'.
+
+		Master Cell: 'nch'.
+		Master Cellview: 'tsmcN65.nch:symbol' found.
+		Created instance 'M62'.
+		Created connection between net 'net45' and term 'D'.
+		Created connection between net 'e3' and term 'G'.
+		Created connection between net 'net37' and term 'S'.
+		Created connection between net 'net37' and term 'B'.
+		Created propName='model'; propType='string'; propVal='nch'.
+
+	Inst: M63
+		Found net 'net37'.
+		Found net 'ne3'.
+		Found net 'net45'.
+		Found net 'net45'.
+		Found net 'pch'.
+
+		Master Cell: 'pch'.
+		Master Cellview: 'tsmcN65.pch:symbol' found.
+		Created instance 'M63'.
+		Created connection between net 'net37' and term 'D'.
+		Created connection between net 'ne3' and term 'G'.
+		Created connection between net 'net45' and term 'S'.
+		Created connection between net 'net45' and term 'B'.
+		Created propName='model'; propType='string'; propVal='pch'.
+
+	Inst: XopAmp6
+		Found net 'net36'.
+		Created net 'net46'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp6'.
+		Created connection between net 'net36' and term 'nin'.
+		Created connection between net 'net46' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R201
+		Found net 'net36'.
+		Found net 'net46'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R201'.
+		Created connection between net 'net36' and term 'MINUS'.
+		Created connection between net 'net46' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: R202
+		Found net 'net46'.
+		Found net 'net37'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R202'.
+		Created connection between net 'net46' and term 'MINUS'.
+		Created connection between net 'net37' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: XopAmp7
+		Found net 'net37'.
+		Created net 'net47'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp7'.
+		Created connection between net 'net37' and term 'nin'.
+		Created connection between net 'net47' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R203
+		Found net 'net37'.
+		Found net 'net47'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R203'.
+		Created connection between net 'net37' and term 'MINUS'.
+		Created connection between net 'net47' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='Rf'.
+
+	Inst: Idc0
+		Created net 'vdd!'.
+		Created net 'net49'.
+
+		Master Cell: 'isource'.
+		Master Cellview: 'analogLib.isource:symbol' found.
+		Warning! termOrder of this master has more entries than required. Ignoring the extra entries
+		Created instance 'Idc0'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'net49' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='isource'.
+		Created propName='idc'; propType='string'; propVal='0.00015'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Xsig0
+		Created net 'V1'.
+		Created net 'V2'.
+		Created net 'V3s'.
+		Found net 'net11'.
+		Created net 'net48'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Created net 'gnd!'.
+		Found net 'net49'.
+		Found net 'vdd!'.
+
+		Master Cell: 'sigmoid'.
+		Did not find 'analogLib.sigmoid:symbol'.
+		Did not find 'tsmcN65.sigmoid:symbol'.
+		Master cellview barbaLib.sigmoid:schematic found.
+		Created instance 'Xsig0'.
+		Created connection between net 'V1' and term 'V1'.
+		Created connection between net 'V2' and term 'V2'.
+		Created connection between net 'V3s' and term 'V3'.
+		Created connection between net 'net11' and term 'Vin'.
+		Created connection between net 'net48' and term 'Vout'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net49' and term 'idc'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='sigmoid'.
+
+	Inst: Xbuffer0
+		Created net 'inputG0'.
+		Found net 'inputG0'.
+		Found net 'net48'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'Xbuffer0'.
+		Created connection between net 'inputG0' and term 'nin'.
+		Created connection between net 'inputG0' and term 'out'.
+		Created connection between net 'net48' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: Idc1
+		Found net 'vdd!'.
+		Created net 'net51'.
+
+		Master Cell: 'isource'.
+		Master Cellview: 'analogLib.isource:symbol' found.
+		Created instance 'Idc1'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'net51' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='isource'.
+		Created propName='idc'; propType='string'; propVal='0.00015'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Xsig1
+		Found net 'V1'.
+		Found net 'V2'.
+		Found net 'V3s'.
+		Found net 'net23'.
+		Created net 'net50'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net51'.
+		Found net 'vdd!'.
+
+		Master Cell: 'sigmoid'.
+		Master Cellview: 'barbaLib.sigmoid:schematic' found.
+		Created instance 'Xsig1'.
+		Created connection between net 'V1' and term 'V1'.
+		Created connection between net 'V2' and term 'V2'.
+		Created connection between net 'V3s' and term 'V3'.
+		Created connection between net 'net23' and term 'Vin'.
+		Created connection between net 'net50' and term 'Vout'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net51' and term 'idc'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='sigmoid'.
+
+	Inst: Xbuffer1
+		Created net 'forgetG0'.
+		Found net 'forgetG0'.
+		Found net 'net50'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'Xbuffer1'.
+		Created connection between net 'forgetG0' and term 'nin'.
+		Created connection between net 'forgetG0' and term 'out'.
+		Created connection between net 'net50' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: Idc2
+		Found net 'vdd!'.
+		Created net 'net53'.
+
+		Master Cell: 'isource'.
+		Master Cellview: 'analogLib.isource:symbol' found.
+		Created instance 'Idc2'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'net53' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='isource'.
+		Created propName='idc'; propType='string'; propVal='0.00015'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Xtanh0
+		Found net 'V1'.
+		Found net 'V2'.
+		Created net 'V3t'.
+		Found net 'net35'.
+		Created net 'net52'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net53'.
+		Found net 'vdd!'.
+
+		Master Cell: 'tanh'.
+		Did not find 'analogLib.tanh:symbol'.
+		Did not find 'tsmcN65.tanh:symbol'.
+		Master cellview barbaLib.tanh:schematic found.
+		Created instance 'Xtanh0'.
+		Created connection between net 'V1' and term 'V1'.
+		Created connection between net 'V2' and term 'V2'.
+		Created connection between net 'V3t' and term 'V3'.
+		Created connection between net 'net35' and term 'Vin'.
+		Created connection between net 'net52' and term 'Vout'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net53' and term 'idc'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='tanh'.
+
+	Inst: Xbuffer2
+		Created net 'cellStateG0'.
+		Found net 'cellStateG0'.
+		Found net 'net52'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'Xbuffer2'.
+		Created connection between net 'cellStateG0' and term 'nin'.
+		Created connection between net 'cellStateG0' and term 'out'.
+		Created connection between net 'net52' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: Idc3
+		Found net 'vdd!'.
+		Created net 'net55'.
+
+		Master Cell: 'isource'.
+		Master Cellview: 'analogLib.isource:symbol' found.
+		Created instance 'Idc3'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'net55' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='isource'.
+		Created propName='idc'; propType='string'; propVal='0.00015'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Xsig2
+		Found net 'V1'.
+		Found net 'V2'.
+		Found net 'V3s'.
+		Found net 'net47'.
+		Created net 'net54'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net55'.
+		Found net 'vdd!'.
+
+		Master Cell: 'sigmoid'.
+		Master Cellview: 'barbaLib.sigmoid:symbol' found.
+		Created instance 'Xsig2'.
+		Created connection between net 'V1' and term 'V1'.
+		Created connection between net 'V2' and term 'V2'.
+		Created connection between net 'V3s' and term 'V3'.
+		Created connection between net 'net47' and term 'Vin'.
+		Created connection between net 'net54' and term 'Vout'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net55' and term 'idc'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='sigmoid'.
+
+	Inst: Xbuffer3
+		Created net 'outputG0'.
+		Found net 'outputG0'.
+		Found net 'net54'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'Xbuffer3'.
+		Created connection between net 'outputG0' and term 'nin'.
+		Created connection between net 'outputG0' and term 'out'.
+		Created connection between net 'net54' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: XvoltMult0
+		Found net 'inputG0'.
+		Found net 'cellStateG0'.
+		Created net 'net56'.
+
+		Master Cell 'voltageMult' mapped to 'voltMult'.
+		Did not find 'analogLib.voltMult:symbol'.
+		Did not find 'tsmcN65.voltMult:symbol'.
+		Master cellview barbaLib.voltMult:schematic found.
+		Created instance 'XvoltMult0'.
+		Created connection between net 'inputG0' and term 'in1'.
+		Created connection between net 'cellStateG0' and term 'in2'.
+		Created connection between net 'net56' and term 'out'.
+		Created propName='model'; propType='string'; propVal='voltageMult'.
+
+	Inst: R204
+		Found net 'net56'.
+		Created net 'net57'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R204'.
+		Created connection between net 'net56' and term 'MINUS'.
+		Created connection between net 'net57' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R1'.
+
+	Inst: XvoltMult1
+		Found net 'forgetG0'.
+		Created net 'cellStateOld0'.
+		Created net 'net58'.
+
+		Master Cell 'voltageMult' mapped to 'voltMult'.
+		Did not find 'analogLib.voltMult:symbol'.
+		Did not find 'tsmcN65.voltMult:symbol'.
+		Master cellview barbaLib.voltMult:schematic found.
+		Created instance 'XvoltMult1'.
+		Created connection between net 'forgetG0' and term 'in1'.
+		Created connection between net 'cellStateOld0' and term 'in2'.
+		Created connection between net 'net58' and term 'out'.
+		Created propName='model'; propType='string'; propVal='voltageMult'.
+
+	Inst: R205
+		Found net 'net58'.
+		Found net 'net57'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R205'.
+		Created connection between net 'net58' and term 'MINUS'.
+		Created connection between net 'net57' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R1'.
+
+	Inst: XopAmp8
+		Found net 'net57'.
+		Created net 'cellStateCur0'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp8'.
+		Created connection between net 'net57' and term 'nin'.
+		Created connection between net 'cellStateCur0' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R206
+		Found net 'net57'.
+		Found net 'cellStateCur0'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R206'.
+		Created connection between net 'net57' and term 'MINUS'.
+		Created connection between net 'cellStateCur0' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R2'.
+
+	Inst: Xmemcell0
+		Created net 'm0p2'.
+		Created net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'cellStateCur0'.
+		Created net 'net59'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Did not find 'analogLib.memcell:symbol'.
+		Did not find 'tsmcN65.memcell:symbol'.
+		Master cellview barbaLib.memcell:schematic found.
+		Created instance 'Xmemcell0'.
+		Created connection between net 'm0p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'cellStateCur0' and term 'in'.
+		Created connection between net 'net59' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell1
+		Found net 'nextT'.
+		Found net 'e0'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net59'.
+		Found net 'cellStateOld0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:schematic' found.
+		Created instance 'Xmemcell1'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'e0' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net59' and term 'in'.
+		Created connection between net 'cellStateOld0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell2
+		Created net 'm1p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'cellStateCur0'.
+		Created net 'net60'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell2'.
+		Created connection between net 'm1p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'cellStateCur0' and term 'in'.
+		Created connection between net 'net60' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell3
+		Found net 'nextT'.
+		Found net 'e1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net60'.
+		Found net 'cellStateOld0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell3'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'e1' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net60' and term 'in'.
+		Created connection between net 'cellStateOld0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell4
+		Created net 'm2p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'cellStateCur0'.
+		Created net 'net61'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell4'.
+		Created connection between net 'm2p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'cellStateCur0' and term 'in'.
+		Created connection between net 'net61' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell5
+		Found net 'nextT'.
+		Found net 'e2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net61'.
+		Found net 'cellStateOld0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell5'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'e2' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net61' and term 'in'.
+		Created connection between net 'cellStateOld0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell6
+		Created net 'm3p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'cellStateCur0'.
+		Created net 'net62'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell6'.
+		Created connection between net 'm3p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'cellStateCur0' and term 'in'.
+		Created connection between net 'net62' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell7
+		Found net 'nextT'.
+		Found net 'e3'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net62'.
+		Found net 'cellStateOld0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell7'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'e3' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net62' and term 'in'.
+		Created connection between net 'cellStateOld0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Idc4
+		Found net 'vdd!'.
+		Created net 'net64'.
+
+		Master Cell: 'isource'.
+		Master Cellview: 'analogLib.isource:symbol' found.
+		Created instance 'Idc4'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'net64' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='isource'.
+		Created propName='idc'; propType='string'; propVal='0.00015'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Xtanh1
+		Found net 'V1'.
+		Found net 'V2'.
+		Found net 'V3t'.
+		Found net 'cellStateCur0'.
+		Created net 'net63'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net64'.
+		Found net 'vdd!'.
+
+		Master Cell: 'tanh'.
+		Master Cellview: 'barbaLib.tanh:schematic' found.
+		Created instance 'Xtanh1'.
+		Created connection between net 'V1' and term 'V1'.
+		Created connection between net 'V2' and term 'V2'.
+		Created connection between net 'V3t' and term 'V3'.
+		Created connection between net 'cellStateCur0' and term 'Vin'.
+		Created connection between net 'net63' and term 'Vout'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net64' and term 'idc'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='tanh'.
+
+	Inst: Xbuffer4
+		Created net 'net65'.
+		Found net 'net65'.
+		Found net 'net63'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'Xbuffer4'.
+		Created connection between net 'net65' and term 'nin'.
+		Created connection between net 'net65' and term 'out'.
+		Created connection between net 'net63' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: XvoltMult2
+		Found net 'outputG0'.
+		Found net 'net65'.
+		Created net 'net66'.
+
+		Master Cell 'voltageMult' mapped to 'voltMult'.
+		Did not find 'analogLib.voltMult:symbol'.
+		Did not find 'tsmcN65.voltMult:symbol'.
+		Master cellview barbaLib.voltMult:schematic found.
+		Created instance 'XvoltMult2'.
+		Created connection between net 'outputG0' and term 'in1'.
+		Created connection between net 'net65' and term 'in2'.
+		Created connection between net 'net66' and term 'out'.
+		Created propName='model'; propType='string'; propVal='voltageMult'.
+
+	Inst: R207
+		Found net 'net66'.
+		Created net 'net67'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R207'.
+		Created connection between net 'net66' and term 'MINUS'.
+		Created connection between net 'net67' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R3'.
+
+	Inst: XopAmp9
+		Found net 'net67'.
+		Created net 'net68'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp9'.
+		Created connection between net 'net67' and term 'nin'.
+		Created connection between net 'net68' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R208
+		Found net 'net67'.
+		Found net 'net68'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R208'.
+		Created connection between net 'net67' and term 'MINUS'.
+		Created connection between net 'net68' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R4'.
+
+	Inst: Xmemcell8
+		Found net 'm0p2'.
+		Created net 'predEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net69'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell8'.
+		Created connection between net 'm0p2' and term 'enableIn'.
+		Created connection between net 'predEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net69' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell9
+		Found net 'm0p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net70'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell9'.
+		Created connection between net 'm0p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net70' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell10
+		Found net 'nextT'.
+		Created net 'xbarEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net70'.
+		Found net 'netHid0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell10'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'xbarEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net70' and term 'in'.
+		Created connection between net 'netHid0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell11
+		Found net 'm1p2'.
+		Found net 'predEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net71'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell11'.
+		Created connection between net 'm1p2' and term 'enableIn'.
+		Created connection between net 'predEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net71' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell12
+		Found net 'm1p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net72'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell12'.
+		Created connection between net 'm1p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net72' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell13
+		Found net 'nextT'.
+		Found net 'xbarEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net72'.
+		Found net 'netHid1'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell13'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'xbarEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net72' and term 'in'.
+		Created connection between net 'netHid1' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell14
+		Found net 'm2p2'.
+		Found net 'predEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net73'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell14'.
+		Created connection between net 'm2p2' and term 'enableIn'.
+		Created connection between net 'predEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net73' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell15
+		Found net 'm2p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net74'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell15'.
+		Created connection between net 'm2p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net74' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell16
+		Found net 'nextT'.
+		Found net 'xbarEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net74'.
+		Found net 'netHid2'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell16'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'xbarEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net74' and term 'in'.
+		Created connection between net 'netHid2' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell17
+		Found net 'm3p2'.
+		Found net 'predEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net75'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell17'.
+		Created connection between net 'm3p2' and term 'enableIn'.
+		Created connection between net 'predEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net75' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell18
+		Found net 'm3p2'.
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net68'.
+		Created net 'net76'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell18'.
+		Created connection between net 'm3p2' and term 'enableIn'.
+		Created connection between net 'nextT' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net68' and term 'in'.
+		Created connection between net 'net76' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: Xmemcell19
+		Found net 'nextT'.
+		Found net 'xbarEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'net76'.
+		Found net 'netHid3'.
+		Found net 'vdd!'.
+
+		Master Cell: 'memcell'.
+		Master Cellview: 'barbaLib.memcell:symbol' found.
+		Created instance 'Xmemcell19'.
+		Created connection between net 'nextT' and term 'enableIn'.
+		Created connection between net 'xbarEn' and term 'enableOut'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'net76' and term 'in'.
+		Created connection between net 'netHid3' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='memcell'.
+
+	Inst: R209
+		Found net 'net69'.
+		Created net 'net77'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R209'.
+		Created connection between net 'net69' and term 'MINUS'.
+		Created connection between net 'net77' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='80000'.
+
+	Inst: R210
+		Found net 'net69'.
+		Created net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R210'.
+		Created connection between net 'net69' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='930000'.
+
+	Inst: R211
+		Found net 'net71'.
+		Found net 'net77'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R211'.
+		Created connection between net 'net71' and term 'MINUS'.
+		Created connection between net 'net77' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='870000'.
+
+	Inst: R212
+		Found net 'net71'.
+		Found net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R212'.
+		Created connection between net 'net71' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='140000'.
+
+	Inst: R213
+		Found net 'net73'.
+		Found net 'net77'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R213'.
+		Created connection between net 'net73' and term 'MINUS'.
+		Created connection between net 'net77' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='870000'.
+
+	Inst: R214
+		Found net 'net73'.
+		Found net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R214'.
+		Created connection between net 'net73' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='140000'.
+
+	Inst: R215
+		Found net 'net75'.
+		Found net 'net77'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R215'.
+		Created connection between net 'net75' and term 'MINUS'.
+		Created connection between net 'net77' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='870000'.
+
+	Inst: R216
+		Found net 'net75'.
+		Found net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R216'.
+		Created connection between net 'net75' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='140000'.
+
+	Inst: R217
+		Found net 'netBias'.
+		Found net 'net77'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R217'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net77' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='500000'.
+
+	Inst: R218
+		Found net 'netBias'.
+		Found net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R218'.
+		Created connection between net 'netBias' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='510000'.
+
+	Inst: XopAmp10
+		Found net 'net77'.
+		Created net 'net79'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp10'.
+		Created connection between net 'net77' and term 'nin'.
+		Created connection between net 'net79' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R219
+		Found net 'net77'.
+		Found net 'net79'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R219'.
+		Created connection between net 'net77' and term 'MINUS'.
+		Created connection between net 'net79' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: R220
+		Found net 'net79'.
+		Found net 'net78'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R220'.
+		Created connection between net 'net79' and term 'MINUS'.
+		Created connection between net 'net78' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='R'.
+
+	Inst: XopAmp11
+		Found net 'net78'.
+		Created net 'net80'.
+		Found net 'Vcm'.
+
+		Master Cell: 'opAmp'.
+		Master Cellview: 'barbaLib.opAmp:symbol' found.
+		Created instance 'XopAmp11'.
+		Created connection between net 'net78' and term 'nin'.
+		Created connection between net 'net80' and term 'out'.
+		Created connection between net 'Vcm' and term 'pin'.
+		Created propName='model'; propType='string'; propVal='opAmp'.
+
+	Inst: R221
+		Found net 'net78'.
+		Found net 'net80'.
+
+		Master Cell 'resistor' mapped to 'res'.
+		Master Cellview: 'analogLib.res:symbol' found.
+		Created instance 'R221'.
+		Created connection between net 'net78' and term 'MINUS'.
+		Created connection between net 'net80' and term 'PLUS'.
+		Created propName='model'; propType='string'; propVal='resistor'.
+		Created propName='r'; propType='string'; propVal='Rf'.
+
+	Inst: Vdc0
+		Found net 'vdd!'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc0'.
+		Created connection between net 'vdd!' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='vdd'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc1
+		Found net 'Vcm'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc1'.
+		Created connection between net 'Vcm' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='vdd/2'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc2
+		Found net 'V3t'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc2'.
+		Created connection between net 'V3t' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='V3t'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc3
+		Found net 'V3s'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc3'.
+		Created connection between net 'V3s' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='V3s'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc4
+		Found net 'V2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc4'.
+		Created connection between net 'V2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='V2'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc5
+		Found net 'V1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc5'.
+		Created connection between net 'V1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='V1'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vdc6
+		Found net 'netBias'.
+		Found net 'Vcm'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vdc6'.
+		Created connection between net 'netBias' and term 'PLUS'.
+		Created connection between net 'Vcm' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0.1'.
+		Created propName='srcType'; propType='string'; propVal='dc'.
+
+	Inst: Vpulse0
+		Found net 'nextT'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse0'.
+		Created connection between net 'nextT' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/8'.
+		Created propName='td'; propType='string'; propVal='T*4'.
+
+	Inst: Vpulse1
+		Found net 'predEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse1'.
+		Created connection between net 'predEn' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='0'.
+		Created propName='pw'; propType='string'; propVal='T/2'.
+		Created propName='td'; propType='string'; propVal='(T*4+T/8)*2'.
+
+	Inst: Vpulse2
+		Found net 'xbarEn'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse2'.
+		Created connection between net 'xbarEn' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T*4'.
+		Created propName='td'; propType='string'; propVal='0'.
+
+	Inst: Vpulse3
+		Created net 'm0p1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse3'.
+		Created connection between net 'm0p1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='0*T'.
+
+	Inst: Vpulse4
+		Found net 'm0p2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse4'.
+		Created connection between net 'm0p2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='0*T+T/2'.
+
+	Inst: Vpulse5
+		Found net 'e0'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse5'.
+		Created connection between net 'e0' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T'.
+		Created propName='td'; propType='string'; propVal='0*T'.
+
+	Inst: Xinverter0
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'e0'.
+		Found net 'ne0'.
+		Found net 'vdd!'.
+
+		Master Cell: 'inverter'.
+		Did not find 'analogLib.inverter:symbol'.
+		Did not find 'tsmcN65.inverter:symbol'.
+		Master cellview barbaLib.inverter:schematic found.
+		Created instance 'Xinverter0'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'e0' and term 'in'.
+		Created connection between net 'ne0' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='inverter'.
+
+	Inst: Vpulse6
+		Created net 'm1p1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse6'.
+		Created connection between net 'm1p1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='1*T'.
+
+	Inst: Vpulse7
+		Found net 'm1p2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse7'.
+		Created connection between net 'm1p2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='1*T+T/2'.
+
+	Inst: Vpulse8
+		Found net 'e1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse8'.
+		Created connection between net 'e1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T'.
+		Created propName='td'; propType='string'; propVal='1*T'.
+
+	Inst: Xinverter1
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'e1'.
+		Found net 'ne1'.
+		Found net 'vdd!'.
+
+		Master Cell: 'inverter'.
+		Master Cellview: 'barbaLib.inverter:schematic' found.
+		Created instance 'Xinverter1'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'e1' and term 'in'.
+		Created connection between net 'ne1' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='inverter'.
+
+	Inst: Vpulse9
+		Created net 'm2p1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse9'.
+		Created connection between net 'm2p1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='2*T'.
+
+	Inst: Vpulse10
+		Found net 'm2p2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse10'.
+		Created connection between net 'm2p2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='2*T+T/2'.
+
+	Inst: Vpulse11
+		Found net 'e2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse11'.
+		Created connection between net 'e2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T'.
+		Created propName='td'; propType='string'; propVal='2*T'.
+
+	Inst: Xinverter2
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'e2'.
+		Found net 'ne2'.
+		Found net 'vdd!'.
+
+		Master Cell: 'inverter'.
+		Master Cellview: 'barbaLib.inverter:symbol' found.
+		Created instance 'Xinverter2'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'e2' and term 'in'.
+		Created connection between net 'ne2' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='inverter'.
+
+	Inst: Vpulse12
+		Created net 'm3p1'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse12'.
+		Created connection between net 'm3p1' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='3*T'.
+
+	Inst: Vpulse13
+		Found net 'm3p2'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse13'.
+		Created connection between net 'm3p2' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T/2-T/16'.
+		Created propName='td'; propType='string'; propVal='3*T+T/2'.
+
+	Inst: Vpulse14
+		Found net 'e3'.
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse14'.
+		Created connection between net 'e3' and term 'PLUS'.
+		Created connection between net 'gnd!' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='vdd'.
+		Created propName='per'; propType='string'; propVal='T*4+T/8'.
+		Created propName='pw'; propType='string'; propVal='T'.
+		Created propName='td'; propType='string'; propVal='3*T'.
+
+	Inst: Xinverter3
+		Master Cellview: 'analogLib.gnd:symbol' found.
+		Found net 'gnd!'.
+		Found net 'e3'.
+		Found net 'ne3'.
+		Found net 'vdd!'.
+
+		Master Cell: 'inverter'.
+		Master Cellview: 'barbaLib.inverter:symbol' found.
+		Created instance 'Xinverter3'.
+		Created connection between net 'gnd!' and term 'gnd'.
+		Created connection between net 'e3' and term 'in'.
+		Created connection between net 'ne3' and term 'out'.
+		Created connection between net 'vdd!' and term 'vdd'.
+		Created propName='model'; propType='string'; propVal='inverter'.
+
+	Inst: Vpulse15
+		Created net 'net81'.
+		Found net 'Vcm'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse15'.
+		Created connection between net 'net81' and term 'PLUS'.
+		Created connection between net 'Vcm' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='in0step0'.
+		Created propName='per'; propType='string'; propVal='0'.
+		Created propName='pw'; propType='string'; propVal='T*4'.
+		Created propName='td'; propType='string'; propVal='(T*4+T/2)*0'.
+
+	Inst: Vpulse16
+		Found net 'netIn0'.
+		Found net 'net81'.
+
+		Master Cell: 'vsource'.
+		Master Cellview: 'analogLib.vsource:symbol' found.
+		Created instance 'Vpulse16'.
+		Created connection between net 'netIn0' and term 'PLUS'.
+		Created connection between net 'net81' and term 'MINUS'.
+		Created propName='model'; propType='string'; propVal='vsource'.
+		Created propName='vdc'; propType='string'; propVal='0'.
+		Created propName='srcType'; propType='string'; propVal='pulse'.
+		Created propName='val0'; propType='string'; propVal='0'.
+		Created propName='val1'; propType='string'; propVal='in0step1'.
+		Created propName='per'; propType='string'; propVal='0'.
+		Created propName='pw'; propType='string'; propVal='T*4'.
+		Created propName='td'; propType='string'; propVal='(T*4+T/2)*1'.
+
+Saved and closed 'barbaLib.truc:netlist_tmp'.
+INFO (SPICEIN-33): Spice In successfully created the schematic view barbaLib.truc::schematic. Read the log file
+'c2s_truc.log' for more information.
+INFO (SPICEIN-54): Spice In successfully imported the netlist file '/home/vbarbaza/thesis/truc.sp'. You may like to read the
+log file 'spiceIn.log' for details.

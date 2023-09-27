@@ -1,0 +1,8 @@
+@(#)$CDS: conn2sch version 6.1.8-64b 09/22/2020 19:02 (sjfhw316) $  Fri Jun  2 14:16:59 2023
+
+WARNING (CONN2SCH-135): Signal 'gnd!' terminates with '!' but is not defined as global in the cellview
+'barbaLib truc2 netlist_tmp'. This signal would be marked global by the schematic extractor.
+WARNING (CONN2SCH-135): Signal 'vdd!' terminates with '!' but is not defined as global in the cellview
+'barbaLib truc2 netlist_tmp'. This signal would be marked global by the schematic extractor.
+INFO (CONN2SCH-372): Checked-in schematic truc2.
+INFO (CONN2SCH-206): End of Logfile.

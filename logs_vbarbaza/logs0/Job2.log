@@ -1,0 +1,122 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = barbaLib
+	Cell         = sigmoid_test
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = barbaLib:sigmoid_test:1_none_Interactive.5
+	Results DB   = /home/vbarbaza/thesis/barbaLib/sigmoid_test/adexl/results/data/Interactive.5.rdb
+	Results Dir  = /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data/Interactive.5/1/barbaLib:sigmoid_test:1
+	Results Loc  = /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data
+	Project Dir  = /home/vbarbaza/simulation
+	Setup DB loc = /home/vbarbaza/thesis/barbaLib/sigmoid_test/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [
+          barbaLib:sigmoid_test:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var idc = "150u"
+Setting temp(T) = 27
+Setting var v1 = "1.1"
+Setting var v2 = "0.635"
+Setting var v3 = "0.8"
+Setting var vdd = "1.8"
+Setting var vin = "0"
+Setting var vin0 = "0.98"
+Setting var vin1 = "0.9"
+
+*Info*    Netlist Directory =
+          /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data/Interactive.5/1/barbaLib:sigmoid_test:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data/Interactive.5/1/barbaLib:sigmoid_test:1
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+Begin Incremental Netlisting Sep  5 17:36:41 2023
+ERROR (OSSHNL-109): The cellview 'barbaLib/sigmoid/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+End netlisting Sep  5 17:36:41 2023
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [
+          barbaLib:sigmoid_test:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var idc = "150u"
+Setting temp(T) = 27
+Setting var v1 = "1.1"
+Setting var v2 = "0.635"
+Setting var v3 = "0.8"
+Setting var vdd = "1.8"
+Setting var vin = "0"
+Setting var vin0 = "0.98"
+Setting var vin1 = "0.9"
+
+*Info*    Netlist Directory =
+          /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data/Interactive.5/1/barbaLib:sigmoid_test:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vbarbaza/simulation/barbaLib/sigmoid_test/adexl/results/data/Interactive.5/1/barbaLib:sigmoid_test:1
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+Begin Incremental Netlisting Sep  5 17:36:41 2023
+ERROR (OSSHNL-109): The cellview 'barbaLib/sigmoid/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
+
+End netlisting Sep  5 17:36:41 2023
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables2".
+To save future changes, copy variables to cellView before exiting.

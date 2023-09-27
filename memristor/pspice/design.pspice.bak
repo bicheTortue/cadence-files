@@ -1,0 +1,30 @@
+* "pspice" description for "PIC", "memristor", "pspice" 
+
+.SUBCKT memristor plus minus
+.PARAM Ron=100 Roff=16K Rinit=11K D=10N uv=10F p=10
+
+Gx 0 x value={IF(V(x)>=1,-0.1,IF(V(x)<=0,0.1,I(Emem)*uv*Ron/D**2*F(V(x),p)))}
+*Gx 0 x value={I(Emem)*uv*Ron/(D**2)*F(V(x),p)}
+Cx x 0 1 IC={(Roff-Rinit)/(Roff-Ron)}
+*Raux x 0 1T
+
+Raux inter x 1Meg
+Vaux inter 0 0.5
+
+Emem plus aux value={-I(Emem)*V(x)*(Roff-Ron)}
+*Emem plus aux value={IF(V(x)>=1.01,-I(Emem)*(Roff-Ron),IF(V(x)<=-0.01,-I(Emem),-I(Emem)*V(x)*(Roff-Ron)))}
+Roff aux minus value={Roff}
+*Rplus plus 0 1Meg
+*Rminus minus 0 1Meg
+
+*Eflux flux 0 value={SDT(V(plus,minus))}
+
+*Echarge charge 0 value={SDT(I(Emem))}
+
+.FUNC F(X,P)={IF(X>=1,0,IF(X<=0,0,1-(2*X-1)**(2*P)))}
+*.FUNC F(X,P)={IF(X>=0,1-(2*X-1)**(2*P),IF(X<=1,(1-(2*X-1)**(2*P))/2,(1-(2*X-1)**(2*P))*2))}
+*.FUNC F(X,P)={1-(2*X-1)**(2*P)}
+
+.IC V(Roff)={0}
+
+.ENDS memristor

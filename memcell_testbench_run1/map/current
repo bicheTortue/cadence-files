@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "memcell_testbench"
+  repList "behavioral functional system verilog pld_verilog lai_verilog lmsi_verilog schematic symbol"
+  stopList "verilog pld_verilog lai_verilog lmsi_verilog symbol"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  hierPrefix "test.top"
+  globalHierPrefix "cds_globals."
+  netlistDir "/home/vbarbaza/thesis/memcell_testbench_run1"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+ )
+( net
+( "vdd!" "cds_globals.vdd_" )
+( "gnd!" "cds_globals.gnd_" )
+ )
+( model
+( "barbaLib/COMPP/schematic" "COMPP" )
+( "barbaLib/memcell_testbench/schematic" "memcell_testbench" )
+( "barbaLib/inverter/schematic" "inverter" )
+ )
+( "inverter" "ihnl/cds0/map" )
+( "COMPP" "ihnl/cds1/map" )
+( "memcell_testbench" "ihnl/cds2/map" )
+ )

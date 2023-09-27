@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jun 15 11:50:55 2023 
+Best design point: 1
+Design specs: 
+	barbaLib:voltMult_test:1	corner	Nominal - 
+Design parameters: 
+	vin1step0		50m
+	vin1step1		20m
+	T		40u
+	vin0step0		1
+	vin0step1		50m
+	vdd		1.8
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Thu Jun 15 11:51:06 2023 

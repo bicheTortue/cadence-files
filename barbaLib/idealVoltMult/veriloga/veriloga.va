@@ -1,0 +1,17 @@
+// VerilogA for barbaLib, voltageMult, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module idealVoltMult(in1,in2,out);
+output out;
+input in1, in2;
+electrical in1, in2, out;
+parameter real vcm=0.9;//Dirty way of setting Vcm, will not be an issue with real components
+
+analog begin
+    V(out)<+ -(V(in1)-vcm)*(V(in2)-vcm)+vcm;//Will have  to be carefull to have a voltMult with adding capabilities
+end
+
+
+endmodule

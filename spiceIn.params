@@ -1,0 +1,9 @@
+spiceInParams = list(nil
+	'conn2schParamFile	"/home/vbarbaza/thesis/schOpts_spiceIn.params"
+	'language	"SPICE"
+	'netlistFile	"/home/vbarbaza/thesis/truc.sp"
+	'outputLib	"barbaLib"
+	'refLibList	"analogLib tsmcN65"
+	'outputViewName	"schematic"
+	'devMapFile	"/home/vbarbaza/thesis/mappingSpice"
+)

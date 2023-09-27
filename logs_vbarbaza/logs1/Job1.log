@@ -1,0 +1,99 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = barbaLib
+	Cell         = truc
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = barbaLib:truc:1_none_Interactive.6
+	Results DB   = /home/vbarbaza/thesis/barbaLib/truc/adexl/results/data/Interactive.6.rdb
+	Results Dir  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.6/1/barbaLib:truc:1
+	Results Loc  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data
+	Project Dir  = /home/vbarbaza/simulation
+	Setup DB loc = /home/vbarbaza/thesis/barbaLib/truc/adexl
+	File Encoding = 0
+
+
+WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ barbaLib:truc:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var R = "505k"
+Setting var R1 = "50k"
+Setting var R2 = "500k"
+Setting var R3 = "50k"
+Setting var R4 = "500k"
+Setting var Rf = "505k"
+Setting var T = "40u"
+Setting var in0step0 = "2.70270258188248e-3"
+Setting var in0step1 = "5.40540516376495e-3"
+Setting var r = "100"
+Setting temp(T) = 27
+Setting var vdd = "1.8"
+
+*Info*    Netlist Directory =
+          /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.6/1/barbaLib:truc:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.6/1/barbaLib:truc:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Jun  2 16:02:20 2023
+End netlisting Jun  2 16:02:20 2023
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+          Point ID (0 1).
+
+Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.6/1/barbaLib:truc:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          barbaLib:truc:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables2".
+To save future changes, copy variables to cellView before exiting.

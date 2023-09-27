@@ -1,0 +1,43 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/15/2020 20:28 (sjfhw492) $
+\o Sub version:		sub-version  s146 
+\o Arguments:		-cdslib /home/vbarbaza/thesis/cds.lib -mpssession virtuoso3571825 -mpshost figaro.inesc-id.pt 
+\o Working Directory:	figaro.inesc-id.pt:/home/vbarbaza/thesis
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(268 227 500 400))
+\a nrResizeWindow(cdsLibEditor list(68 27 1612 986))
+\a nrListItemAction(cdsLibEditor->mainTable 13 0)
+\o Active cell: 13 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 13 1)
+\o Active cell: 13 1 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/vbarbaza/thesis"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(609 263 531 513))
+\a newLibraryDialog->libraryListBox->value = "adc_sigma_delta"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "adc_sigma_delta"
+\a newLibraryDialog->applyButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 13 1 "/home/vbarbaza/thesis/adc_sigma_delta")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 14 0)
+\o Active cell: 14 0 ""
+\a newLibraryDialog->okButton->value = t
+\o ERROR (CLE-214): Provide a library name. 
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(newLibraryDialog list(609 226 531 513))
+\a nrResizeWindow(errorDialog list(777 459 195 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(errorDialog list(777 422 195 122))
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

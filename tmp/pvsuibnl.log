@@ -1,0 +1,20 @@
+2023/05/03 17:53:25 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/05/03 17:53:25 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+Checking out SoftShare license Phys_Ver_Sys_LVS_XL 19.1 Qty: 1 ... succeeded (1s).
+Tool:      pvsBuildNetlist 19.15000-s006, sub-version s006
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /opt/cadence/pvs191/tools/pvs/bin/64bit/pvsBuildNetlist -o /home/vbarbaza/thesis/tmp/inverter.cdl -tc inverter -global_log_file /home/vbarbaza/thesis/tmp//pvsuibnl.log 
+> o /home/vbarbaza/thesis/tmp/inverter.cdl
+> tc inverter
+> q
+Quiting...
+error: (_pvsDBox 'error "Could not find cell inverter.  Using the empty cell option will automatically create empty cells when no cell can be found")
+Checking in all SoftShare licenses.

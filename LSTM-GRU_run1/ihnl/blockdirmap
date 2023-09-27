@@ -1,0 +1,7 @@
+CADENCE IHNL11145
+
+barbaLib inverter schematic cds0
+barbaLib memcell schematic cds1
+barbaLib sigmoid schematic cds2
+barbaLib tanh schematic cds3
+barbaLib LSTM-GRU schematic cds4

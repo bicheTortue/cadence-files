@@ -1,0 +1,21 @@
+# ------------------------------------------------------------------------------
+# TSMC 65nm Combine  definitions
+# Created by João Silva
+#
+# License Specific Cadence libraries
+#
+ASSIGN cdsDefTechLib		 DISPLAY	Cadence_lib
+ASSIGN analogLib		 DISPLAY	Cadence_lib
+ASSIGN ahdlLib			 DISPLAY	Cadence_lib
+ASSIGN basic			 DISPLAY	Cadence_lib
+ASSIGN US_8ths			 DISPLAY	Cadence_lib
+ASSIGN connectLib		 DISPLAY	Cadence_lib
+ASSIGN bmslib	 		 DISPLAY	Cadence_lib
+ASSIGN rfLib			 DISPLAY	Cadence_lib
+ASSIGN rfExamples		 DISPLAY	Cadence_lib
+ASSIGN passiveLib		 DISPLAY	Cadence_lib
+ASSIGN connectLib 		 DISPLAY	Cadence_lib
+
+DEFINE	CadenceLibs		./CadenceLibs
+ASSIGN	CadenceLibs		DISPLAY	Cadence_top
+ASSIGN	CadenceLibs		COMBINE	 cdsDefTechLib analogLib ahdlLib basic US_8ths connectLib bmslib rfLib rfExamples passiveLib connectLib

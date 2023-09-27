@@ -1,0 +1,3 @@
+Fatal error found by parser during PSPICE read-in.
+Fatal: MTS mode must be enabled for netlist with `pspice_include'. Add `+mts' at the Spectre command line and rerun the simulation.
+.

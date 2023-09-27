@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Jun  2 12:20:52 2023 
+Best design point: 1
+Design specs: 
+	barbaLib:allG:1	corner	Nominal - 
+Design parameters: 
+	Rf		505K
+	R		505K
+	vdd		1.8
+	T		40u
+	in0step0		1.5m
+	in0step1		2.3m
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Jun  2 12:21:09 2023 

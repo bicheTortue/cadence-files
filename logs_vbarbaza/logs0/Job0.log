@@ -1,0 +1,4130 @@
+\# Program start time:     UTC 2023.09.26 23:51:59.078
+\# Local time: WEST (UTC+01:00) 2023.09.27 00:51:59.078
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/22/2020 19:17 (cpgsrv11) $
+\o Hierarchy:		/opt/cadence/ic618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.14  (64-bit addresses)
+\# Command line:	/opt/cadence/ic618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso666703 -mpshost figaro.inesc-id.pt -davinciService DaVinciService_666703_1695772285 -log /home/vbarbaza/thesis/logs_vbarbaza/logs0/Job0.log -licenseLockFileName /home/vbarbaza/thesis/.tmp_vbarbaza/.figaro.inesc-id.pt_666703 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 0
+\# Host name (type):	figaro.inesc-id.pt (x86_64)
+\# Operating system:	Linux 5.4.17-2136.323.8.1.el8uek.x86_64 #2 SMP Thu Sep 14 22:33:45 PDT 2023
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:95 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 3678724)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x7000000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        560 MB
+\# Available memory:	     26,277 MB
+\# System memory:	     48,315 MB
+\# Maximum memory size:	     47,996 MB
+\# Max mem available:	     26,518 MB
+\# Initial memory used:	        241 MB
+\#        process size:	      1,470 MB
+\# Thread usage limits (effective/default):	maxthreads 94546/94546 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vbarbaza
+\o Working Directory:	figaro.inesc-id.pt:/home/vbarbaza/thesis
+\# Process Id:		1075309
+\o 
+\o COPYRIGHT (C) 1992-2020  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2020  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Memory report: using         346 MB, process size 1,530 MB at UTC 2023.09.26 23:52:02.443
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\# Available memory:         25,568 MB at UTC 2023.09.26 23:52:11.689
+\# Memory report: Maximum memory size now 25,923 MB at UTC 2023.09.26 23:52:11.689
+\# Thread usage report: 9 active threads, active load 1.00 at UTC 2023.09.26 23:52:11.690
+\# Memory report: Maximum memory size now 26,646 MB at UTC 2023.09.26 23:52:31.312
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso666703, host=figaro.inesc-id.pt). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1075309 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# Memory report: using         491 MB, process size 1,731 MB at UTC 2023.09.26 23:53:00.863
+\o //
+\o //  Calibre Skill Interface * (v2020.4_15.9) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\# Memory report: Maximum memory size now 25,960 MB at UTC 2023.09.26 23:53:04.623
+\# Memory report: Maximum memory size now 26,586 MB at UTC 2023.09.26 23:53:27.928
+\o Waiting for ipc:6 to terminate
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\a _treeSetOpcGUI(t)
+\r t
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = barbaLib
+\o 	Cell         = truc
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = barbaLib:truc:1_none_Interactive.90
+\o 	Results DB   = /home/vbarbaza/thesis/barbaLib/truc/adexl/results/data/Interactive.90.rdb
+\o 	Results Dir  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/1/barbaLib:truc:1
+\o 	Results Loc  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data
+\o 	Project Dir  = /home/vbarbaza/simulation
+\o 	Setup DB loc = /home/vbarbaza/thesis/barbaLib/truc/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Initializing from libInit.il for library tsmcN65...
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pc65p1_1.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode1.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode2.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode3.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode4.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/pcellCode5.cdn
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/mom.cdn
+\o    --  tsmcPdkParamTable.il
+\o    --  tsmc_esti.ile
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/tsmcN65_patch1.cxt
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/tsmc_utility_patch.cxt
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/tsmcN65_v1d7a_1.cxt1
+\o    --  tif_tcf_crn65lp_v1.7a.cxt
+\o    --  tsmcN65Tool.cxt
+\o    --  tsmcN65_patch1.cxt
+\o    --  tsmcN65.cxt
+\o    --  tsmc_utility_patch.cxt
+\o    --  tsmcDNA_utility.cxt
+\o    --  /opt/pdk/tsmcN65/tsmcN65/../skill/tsmc_utility_patch.cxt
+\o Loading Working place Display File '/home/vbarbaza/thesis/display.drf'
+\o Loading spectrei.cxt 
+\# Memory report: using         601 MB, process size 1,905 MB at UTC 2023.09.26 23:53:43.215
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R = "505k"
+\o Setting var R1 = "50k"
+\o Setting var R2 = "500k"
+\o Setting var R3 = "50k"
+\o Setting var R4 = "500k"
+\o Setting var Rf = "505k"
+\o Setting var T = "8u"
+\o Setting var V1 = "1.1"
+\o Setting var V2 = "0.635"
+\o Setting var V3s = "800m"
+\o Setting var V3t = "550m"
+\o Setting var in0step0 = "0.0015"
+\o Setting var in0step1 = "0.0027"
+\o Setting var r = "10"
+\o Setting var step = "0"
+\o Setting temp(T) = 27
+\o Setting var vdd = "1.8"
+\o Setting var x = "axis"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/1/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/1/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Sep 27 00:54:05 2023
+\o WARNING (OSSHNL-159): The primitive, 'barbaLib/idealVoltMult/veriloga', has been updated since the last netlisting session
+\o in this current run directory. Therefore, re-netlisting all cell views where
+\o this primitive is instantiated.
+\o 
+\o End netlisting Sep 27 00:54:06 2023
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:  385
+\o 
+\o 	Elapsed time:          5.0s (77.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (0 1).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/1/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\# Memory report: using         706 MB, process size 2,039 MB at UTC 2023.09.26 23:54:57.171
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0027"
+\o Setting var in0step1 = "0.0054"
+\o Setting var step = "1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/2/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/2/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 00:55:00 2023
+\o End netlisting Sep 27 00:55:00 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (0 2).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/2/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 25,808 MB at UTC 2023.09.26 23:55:09.762
+\# Memory report: Maximum memory size now 26,373 MB at UTC 2023.09.26 23:55:29.771
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0054"
+\o Setting var in0step1 = "0.0048"
+\o Setting var step = "2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/3/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/3/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 00:55:33 2023
+\o End netlisting Sep 27 00:55:33 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (0 3).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/3/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0048"
+\o Setting var in0step1 = "0.0033"
+\o Setting var step = "3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/4/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/4/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 00:56:05 2023
+\o End netlisting Sep 27 00:56:05 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (0 4).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/4/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0033"
+\o Setting var in0step1 = "0.006"
+\o Setting var step = "4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/5/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/5/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 00:56:35 2023
+\o End netlisting Sep 27 00:56:35 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (0 5).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.90/5/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o *Info*    Current simulation for points ((0 5)).
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 25,530 MB at UTC 2023.09.26 23:58:57.762
+\# Memory report: Maximum memory size now 27,505 MB at UTC 2023.09.26 23:59:07.771
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = barbaLib
+\o 	Cell         = truc
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = barbaLib:truc:1_none_Interactive.91
+\o 	Results DB   = /home/vbarbaza/thesis/barbaLib/truc/adexl/results/data/Interactive.91.rdb
+\o 	Results Dir  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/1/barbaLib:truc:1
+\o 	Results Loc  = /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data
+\o 	Project Dir  = /home/vbarbaza/simulation
+\o 	Setup DB loc = /home/vbarbaza/thesis/barbaLib/truc/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R = "505k"
+\o Setting var R1 = "50k"
+\o Setting var R2 = "500k"
+\o Setting var R3 = "50k"
+\o Setting var R4 = "500k"
+\o Setting var Rf = "505k"
+\o Setting var T = "8u"
+\o Setting var V1 = "1.1"
+\o Setting var V2 = "0.635"
+\o Setting var V3s = "800m"
+\o Setting var V3t = "550m"
+\o Setting var in0step0 = "0.0015"
+\o Setting var in0step1 = "0.0027"
+\o Setting var r = "10"
+\o Setting var step = "0"
+\o Setting temp(T) = 27
+\o Setting var vdd = "1.8"
+\o Setting var x = "axis"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/1/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/1/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 00:59:52 2023
+\o End netlisting Sep 27 00:59:52 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 1).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/1/barbaLib:truc:1/psf.
+\# Memory report: Maximum memory size now 26,393 MB at UTC 2023.09.26 23:59:57.210
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 27,145 MB at UTC 2023.09.27 00:00:16.762
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 2) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0027"
+\o Setting var in0step1 = "0.0054"
+\o Setting var step = "1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/2/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/2/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:00:30 2023
+\o End netlisting Sep 27 01:00:30 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 2).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/2/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 3) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0054"
+\o Setting var in0step1 = "0.0048"
+\o Setting var step = "2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/3/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/3/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:01:04 2023
+\o End netlisting Sep 27 01:01:04 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 3).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/3/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 26,589 MB at UTC 2023.09.27 00:01:24.762
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 3) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 4) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0048"
+\o Setting var in0step1 = "0.0033"
+\o Setting var step = "3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/4/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/4/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:01:38 2023
+\o End netlisting Sep 27 01:01:38 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 4).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/4/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 4) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 5) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0033"
+\o Setting var in0step1 = "0.006"
+\o Setting var step = "4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/5/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/5/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:02:09 2023
+\o End netlisting Sep 27 01:02:09 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 5).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/5/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 5) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 6) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.006"
+\o Setting var in0step1 = "0.0085"
+\o Setting var step = "5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/6/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/6/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:02:41 2023
+\o End netlisting Sep 27 01:02:41 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 6).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/6/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 6) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 7) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0085"
+\o Setting var step = "6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/7/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/7/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:03:19 2023
+\o End netlisting Sep 27 01:03:19 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 7).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/7/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 7) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 8) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.0062"
+\o Setting var step = "7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/8/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/8/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:03:52 2023
+\o End netlisting Sep 27 01:03:52 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 8).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/8/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 8) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 9) on testbench [ barbaLib:truc:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0062"
+\o Setting var in0step1 = "0.0029"
+\o Setting var step = "8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/9/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/9/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:04:24 2023
+\o End netlisting Sep 27 01:04:24 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 9).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/9/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 9) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 10) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0029"
+\o Setting var in0step1 = "0"
+\o Setting var step = "9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/10/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/10/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:04:57 2023
+\o End netlisting Sep 27 01:04:57 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 10).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/10/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 10) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 11) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0"
+\o Setting var in0step1 = "0.0027"
+\o Setting var step = "10"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/11/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/11/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:05:30 2023
+\o End netlisting Sep 27 01:05:30 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 11).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/11/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 11) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 12) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0027"
+\o Setting var in0step1 = "0.0021"
+\o Setting var step = "11"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/12/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/12/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:05:59 2023
+\o End netlisting Sep 27 01:05:59 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 12).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/12/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 27,264 MB at UTC 2023.09.27 00:06:13.762
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 12) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 13) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0021"
+\o Setting var in0step1 = "0.0042"
+\o Setting var step = "12"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/13/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/13/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:06:26 2023
+\o End netlisting Sep 27 01:06:26 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 13).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/13/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 26,668 MB at UTC 2023.09.27 00:06:33.779
+\# Memory report: Maximum memory size now 25,452 MB at UTC 2023.09.27 00:06:53.441
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 13) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 14) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0042"
+\o Setting var in0step1 = "0.0071"
+\o Setting var step = "13"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/14/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/14/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:06:56 2023
+\o End netlisting Sep 27 01:06:56 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 14).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/14/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 27,503 MB at UTC 2023.09.27 00:07:03.771
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 14) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 15) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0071"
+\o Setting var in0step1 = "0.006"
+\o Setting var step = "14"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/15/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/15/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:07:25 2023
+\o End netlisting Sep 27 01:07:26 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 15).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/15/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 26,434 MB at UTC 2023.09.27 00:07:53.569
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 15) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 16) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.006"
+\o Setting var in0step1 = "0.0041"
+\o Setting var step = "15"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/16/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/16/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:07:57 2023
+\o End netlisting Sep 27 01:07:57 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 16).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/16/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 27,115 MB at UTC 2023.09.27 00:08:03.770
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 16) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 17) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0041"
+\o Setting var in0step1 = "0.0087"
+\o Setting var step = "16"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/17/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/17/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:08:29 2023
+\o End netlisting Sep 27 01:08:29 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 17).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/17/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 17) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 18) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0087"
+\o Setting var in0step1 = "0.013"
+\o Setting var step = "17"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/18/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/18/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:09:01 2023
+\o End netlisting Sep 27 01:09:02 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 18).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/18/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 18) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 19) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.013"
+\o Setting var step = "18"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/19/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/19/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:09:29 2023
+\o End netlisting Sep 27 01:09:29 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 19).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/19/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 19) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 20) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.01"
+\o Setting var step = "19"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/20/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/20/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:09:54 2023
+\o End netlisting Sep 27 01:09:54 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 20).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/20/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 20) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 21) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.01"
+\o Setting var in0step1 = "0.0056"
+\o Setting var step = "20"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/21/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/21/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:10:21 2023
+\o End netlisting Sep 27 01:10:21 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 21).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/21/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 21) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 22) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0056"
+\o Setting var in0step1 = "0.0019"
+\o Setting var step = "21"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/22/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/22/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:10:47 2023
+\o End netlisting Sep 27 01:10:47 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 22).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/22/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 22) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 23) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0019"
+\o Setting var in0step1 = "0.0069"
+\o Setting var step = "22"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/23/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/23/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 23)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:11:14 2023
+\o End netlisting Sep 27 01:11:14 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 23).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/23/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 23) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 24) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0069"
+\o Setting var in0step1 = "0.0079"
+\o Setting var step = "23"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/24/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/24/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 24)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:11:41 2023
+\o End netlisting Sep 27 01:11:41 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 24).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/24/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 24) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 25) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0079"
+\o Setting var in0step1 = "0.0089"
+\o Setting var step = "24"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/25/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/25/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:12:06 2023
+\o End netlisting Sep 27 01:12:06 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 25).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/25/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 25) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 26) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0089"
+\o Setting var in0step1 = "0.014"
+\o Setting var step = "25"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/26/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/26/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:12:33 2023
+\o End netlisting Sep 27 01:12:34 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 26).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/26/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 26) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 27) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.014"
+\o Setting var in0step1 = "0.011"
+\o Setting var step = "26"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/27/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/27/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 27)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:13:01 2023
+\o End netlisting Sep 27 01:13:01 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 27).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/27/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 27) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 28) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.011"
+\o Setting var in0step1 = "0.013"
+\o Setting var step = "27"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/28/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/28/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 28)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:13:27 2023
+\o End netlisting Sep 27 01:13:28 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 28).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/28/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 27,847 MB at UTC 2023.09.27 00:13:40.768
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 28) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 29) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.013"
+\o Setting var in0step1 = "0.014"
+\o Setting var step = "28"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/29/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/29/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 29)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:13:54 2023
+\o End netlisting Sep 27 01:13:54 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 29).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/29/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Available memory:         29,776 MB at UTC 2023.09.27 00:14:00.769
+\# Memory report: Maximum memory size now 30,488 MB at UTC 2023.09.27 00:14:00.769
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 29) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 30) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.014"
+\o Setting var in0step1 = "0.018"
+\o Setting var step = "29"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/30/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/30/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 30)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:14:21 2023
+\o End netlisting Sep 27 01:14:21 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 30).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/30/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 30) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 31) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.018"
+\o Setting var step = "30"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/31/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/31/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 31)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:14:47 2023
+\o End netlisting Sep 27 01:14:47 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 31).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/31/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 31) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 32) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.015"
+\o Setting var step = "31"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/32/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/32/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:15:14 2023
+\o End netlisting Sep 27 01:15:15 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 32).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/32/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 32) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 33) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.015"
+\o Setting var in0step1 = "0.011"
+\o Setting var step = "32"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/33/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/33/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 33)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:15:40 2023
+\o End netlisting Sep 27 01:15:41 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 33).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/33/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 33) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 34) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.011"
+\o Setting var in0step1 = "0.0081"
+\o Setting var step = "33"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/34/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/34/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 34)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:16:06 2023
+\o End netlisting Sep 27 01:16:06 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 34).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/34/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 34) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 35) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.0081"
+\o Setting var in0step1 = "0.012"
+\o Setting var step = "34"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/35/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/35/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 35)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:16:33 2023
+\o End netlisting Sep 27 01:16:33 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 35).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/35/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 35) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 36) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.012"
+\o Setting var in0step1 = "0.013"
+\o Setting var step = "35"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/36/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/36/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:17:00 2023
+\o End netlisting Sep 27 01:17:00 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 36).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/36/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 36) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 37) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.013"
+\o Setting var in0step1 = "0.015"
+\o Setting var step = "36"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/37/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/37/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 37)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:17:26 2023
+\o End netlisting Sep 27 01:17:27 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 37).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/37/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 37) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 38) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.015"
+\o Setting var in0step1 = "0.017"
+\o Setting var step = "37"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/38/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/38/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 38)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:17:53 2023
+\o End netlisting Sep 27 01:17:53 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 38).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/38/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 38) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 39) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.017"
+\o Setting var in0step1 = "0.015"
+\o Setting var step = "38"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/39/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/39/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 39)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:18:19 2023
+\o End netlisting Sep 27 01:18:19 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 39).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/39/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 39) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 40) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.015"
+\o Setting var step = "39"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/40/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/40/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 40)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:18:46 2023
+\o End netlisting Sep 27 01:18:46 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 40).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/40/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 40) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 41) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.022"
+\o Setting var step = "40"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/41/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/41/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 41)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:19:12 2023
+\o End netlisting Sep 27 01:19:12 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 41).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/41/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 41) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 42) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.022"
+\o Setting var in0step1 = "0.024"
+\o Setting var step = "41"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/42/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/42/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 42)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:19:38 2023
+\o End netlisting Sep 27 01:19:38 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 42).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/42/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 42) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 43) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.024"
+\o Setting var in0step1 = "0.027"
+\o Setting var step = "42"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/43/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/43/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 43)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:20:02 2023
+\o End netlisting Sep 27 01:20:03 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 43).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/43/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 43) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 44) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.027"
+\o Setting var in0step1 = "0.02"
+\o Setting var step = "43"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/44/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/44/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 44)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:20:28 2023
+\o End netlisting Sep 27 01:20:28 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 44).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/44/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 44) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 45) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.02"
+\o Setting var in0step1 = "0.017"
+\o Setting var step = "44"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/45/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/45/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 45)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:20:55 2023
+\o End netlisting Sep 27 01:20:55 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 45).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/45/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 45) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 46) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.017"
+\o Setting var in0step1 = "0.013"
+\o Setting var step = "45"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/46/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/46/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 46)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:21:21 2023
+\o End netlisting Sep 27 01:21:21 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 46).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/46/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 46) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 47) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.013"
+\o Setting var in0step1 = "0.017"
+\o Setting var step = "46"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/47/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/47/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 47)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:21:47 2023
+\o End netlisting Sep 27 01:21:47 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 47).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/47/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 47) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 48) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.017"
+\o Setting var in0step1 = "0.018"
+\o Setting var step = "47"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/48/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/48/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 48)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:22:14 2023
+\o End netlisting Sep 27 01:22:14 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 48).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/48/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 48) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 49) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.018"
+\o Setting var step = "48"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/49/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/49/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 49)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:22:39 2023
+\o End netlisting Sep 27 01:22:39 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 49).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/49/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 49) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 50) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.025"
+\o Setting var step = "49"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/50/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/50/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 50)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:23:05 2023
+\o End netlisting Sep 27 01:23:05 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 50).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/50/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 50) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 51) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.025"
+\o Setting var step = "50"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/51/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/51/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 51)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:23:32 2023
+\o End netlisting Sep 27 01:23:32 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 51).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/51/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 51) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 52) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step1 = "0.024"
+\o Setting var step = "51"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/52/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/52/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 52)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:23:56 2023
+\o End netlisting Sep 27 01:23:56 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 52).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/52/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 52) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 53) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.024"
+\o Setting var in0step1 = "0.027"
+\o Setting var step = "52"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/53/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/53/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 53)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:24:23 2023
+\o End netlisting Sep 27 01:24:23 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 53).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/53/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 53) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 54) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.027"
+\o Setting var in0step1 = "0.031"
+\o Setting var step = "53"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/54/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/54/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 54)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:24:48 2023
+\o End netlisting Sep 27 01:24:48 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 54).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/54/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 54) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 55) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.031"
+\o Setting var in0step1 = "0.032"
+\o Setting var step = "54"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/55/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/55/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 55)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:25:15 2023
+\o End netlisting Sep 27 01:25:15 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 55).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/55/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 55) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 56) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.032"
+\o Setting var in0step1 = "0.026"
+\o Setting var step = "55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/56/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/56/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 56)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:25:40 2023
+\o End netlisting Sep 27 01:25:40 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 56).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/56/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 56) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 57) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.026"
+\o Setting var in0step1 = "0.021"
+\o Setting var step = "56"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/57/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/57/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 57)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:26:05 2023
+\o End netlisting Sep 27 01:26:05 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 57).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/57/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 57) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 58) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.021"
+\o Setting var in0step1 = "0.015"
+\o Setting var step = "57"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/58/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/58/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 58)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:26:29 2023
+\o End netlisting Sep 27 01:26:30 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 58).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/58/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 58) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 59) on testbench [
+\o           barbaLib:truc:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var in0step0 = "0.015"
+\o Setting var in0step1 = "0.019"
+\o Setting var step = "58"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/59/barbaLib:truc:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/59/barbaLib:truc:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 59)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 27 01:26:55 2023
+\o End netlisting Sep 27 01:26:55 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ barbaLib:truc:1 ] for
+\o           Point ID (1 59).
+\o 
+\o Delete psf data in /home/vbarbaza/simulation/barbaLib/truc/adexl/results/data/Interactive.91/59/barbaLib:truc:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.

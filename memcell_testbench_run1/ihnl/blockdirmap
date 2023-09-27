@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+barbaLib inverter schematic cds0
+barbaLib COMPP schematic cds1
+barbaLib memcell_testbench schematic cds2

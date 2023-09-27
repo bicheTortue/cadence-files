@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vbarbaza
+HostName                       figaro.inesc-id.pt
+ProcessIdentifier              411726
+ProcessCreationTime_UTC        1693930776
+ProcessCreationTime_Readable   Tue Sep  5 17:19:36 2023 WEST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vbarbaza/thesis/barbaLib/sigmoid_test/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Sep  5 17:20:17 2023 WEST

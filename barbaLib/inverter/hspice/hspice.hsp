@@ -1,0 +1,8 @@
+* "hspice" description for "barbaLib", "inverter", "hspice" 
+
+
+simulator lang=hspice
+
+.SUBCKT inverter in out
+
+.ENDS inverter

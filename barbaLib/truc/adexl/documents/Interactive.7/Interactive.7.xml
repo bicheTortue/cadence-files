@@ -1,0 +1,2159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetMainDoc.xsl"?>
+<ROOT name="Interactive.7" runMode="Single Run, Sweeps and Corners" enableCpkPerc="disEnable" dsCreationDateTime="6 Jun 2023 14:54:14" fnameprefix="Interactive.7" parasiticsRunMode="None" dsUserName="vbarbaza" dsAuthorName="" viewMode="adexl">
+    <SETUPSUMMARY lib="barbaLib" view="adexl" cell="truc"/>
+    <SCHDIAGRAMS exportPath="/home/vbarbaza/thesis/barbaLib/truc/adexl/documents/Interactive.7/"/>
+    <CORNERS>
+        <CORNER name="test0">
+            <VARS>
+                <VAR name="in0step0">0.0015444010496139526<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0027027025818824766<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test1">
+            <VARS>
+                <VAR name="in0step0">0.0027027025818824766<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.005405405163764953<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test2">
+            <VARS>
+                <VAR name="in0step0">0.005405405163764953<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.004826255142688751<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test3">
+            <VARS>
+                <VAR name="in0step0">0.004826255142688751<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.003281852602958679<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test4">
+            <VARS>
+                <VAR name="in0step0">0.003281852602958679<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.005984556674957275<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test5">
+            <VARS>
+                <VAR name="in0step0">0.005984556674957275<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.008494207262992859<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test6">
+            <VARS>
+                <VAR name="in0step0">0.008494207262992859<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.008494207262992859<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test7">
+            <VARS>
+                <VAR name="in0step0">0.008494207262992859<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0061776071786880495<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test8">
+            <VARS>
+                <VAR name="in0step0">0.0061776071786880495<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.002895753085613251<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test9">
+            <VARS>
+                <VAR name="in0step0">0.002895753085613251<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test10">
+            <VARS>
+                <VAR name="in0step0">0.0<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0027027025818824766<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test11">
+            <VARS>
+                <VAR name="in0step0">0.0027027025818824766<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0021235525608062746<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test12">
+            <VARS>
+                <VAR name="in0step0">0.0021235525608062746<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.004247103631496429<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test13">
+            <VARS>
+                <VAR name="in0step0">0.004247103631496429<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.00714285671710968<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test14">
+            <VARS>
+                <VAR name="in0step0">0.00714285671710968<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.005984556674957275<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test15">
+            <VARS>
+                <VAR name="in0step0">0.005984556674957275<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.004054054617881775<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test16">
+            <VARS>
+                <VAR name="in0step0">0.004054054617881775<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.008687257766723633<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test17">
+            <VARS>
+                <VAR name="in0step0">0.008687257766723633<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.012741312384605408<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test18">
+            <VARS>
+                <VAR name="in0step0">0.012741312384605408<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.012741312384605408<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test19">
+            <VARS>
+                <VAR name="in0step0">0.012741312384605408<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01042470932006836<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test20">
+            <VARS>
+                <VAR name="in0step0">0.01042470932006836<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0055984556674957275<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test21">
+            <VARS>
+                <VAR name="in0step0">0.0055984556674957275<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0019305020570755005<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test22">
+            <VARS>
+                <VAR name="in0step0">0.0019305020570755005<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.006949806213378906<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test23">
+            <VARS>
+                <VAR name="in0step0">0.006949806213378906<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.007915058732032776<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test24">
+            <VARS>
+                <VAR name="in0step0">0.007915058732032776<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.008880308270454407<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test25">
+            <VARS>
+                <VAR name="in0step0">0.008880308270454407<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01428571343421936<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test26">
+            <VARS>
+                <VAR name="in0step0">0.01428571343421936<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01138996183872223<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test27">
+            <VARS>
+                <VAR name="in0step0">0.01138996183872223<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.013127413392066956<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test28">
+            <VARS>
+                <VAR name="in0step0">0.013127413392066956<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01428571343421936<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test29">
+            <VARS>
+                <VAR name="in0step0">0.01428571343421936<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.018339768052101135<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test30">
+            <VARS>
+                <VAR name="in0step0">0.018339768052101135<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.018339768052101135<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test31">
+            <VARS>
+                <VAR name="in0step0">0.018339768052101135<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.015444016456604004<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test32">
+            <VARS>
+                <VAR name="in0step0">0.015444016456604004<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.011196911334991455<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test33">
+            <VARS>
+                <VAR name="in0step0">0.011196911334991455<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.00810810923576355<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test34">
+            <VARS>
+                <VAR name="in0step0">0.00810810923576355<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.011969110369682312<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test35">
+            <VARS>
+                <VAR name="in0step0">0.011969110369682312<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.012934362888336182<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test36">
+            <VARS>
+                <VAR name="in0step0">0.012934362888336182<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.014671814441680909<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test37">
+            <VARS>
+                <VAR name="in0step0">0.014671814441680909<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01718146800994873<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test38">
+            <VARS>
+                <VAR name="in0step0">0.01718146800994873<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.014864864945411681<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test39">
+            <VARS>
+                <VAR name="in0step0">0.014864864945411681<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01525096595287323<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test40">
+            <VARS>
+                <VAR name="in0step0">0.01525096595287323<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02200772166252136<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test41">
+            <VARS>
+                <VAR name="in0step0">0.02200772166252136<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02432432472705841<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test42">
+            <VARS>
+                <VAR name="in0step0">0.02432432472705841<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02664092481136322<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test43">
+            <VARS>
+                <VAR name="in0step0">0.02664092481136322<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.020270270109176636<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test44">
+            <VARS>
+                <VAR name="in0step0">0.020270270109176636<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.016795367002487183<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test45">
+            <VARS>
+                <VAR name="in0step0">0.016795367002487183<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.013127413392066956<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test46">
+            <VARS>
+                <VAR name="in0step0">0.013127413392066956<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.017374518513679504<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test47">
+            <VARS>
+                <VAR name="in0step0">0.017374518513679504<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.017760616540908814<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test48">
+            <VARS>
+                <VAR name="in0step0">0.017760616540908814<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.017760616540908814<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test49">
+            <VARS>
+                <VAR name="in0step0">0.017760616540908814<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025482624769210815<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test50">
+            <VARS>
+                <VAR name="in0step0">0.025482624769210815<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025289574265480043<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test51">
+            <VARS>
+                <VAR name="in0step0">0.025289574265480043<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.024131274223327635<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test52">
+            <VARS>
+                <VAR name="in0step0">0.024131274223327635<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.026833975315093996<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test53">
+            <VARS>
+                <VAR name="in0step0">0.026833975315093996<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03088802993297577<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test54">
+            <VARS>
+                <VAR name="in0step0">0.03088802993297577<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03243243396282196<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test55">
+            <VARS>
+                <VAR name="in0step0">0.03243243396282196<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025675675272941588<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test56">
+            <VARS>
+                <VAR name="in0step0">0.025675675272941588<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.020656371116638185<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test57">
+            <VARS>
+                <VAR name="in0step0">0.020656371116638185<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.014671814441680909<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test58">
+            <VARS>
+                <VAR name="in0step0">0.014671814441680909<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.018725869059562684<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test59">
+            <VARS>
+                <VAR name="in0step0">0.018725869059562684<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.019305017590522767<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test60">
+            <VARS>
+                <VAR name="in0step0">0.019305017590522767<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.01621621549129486<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test61">
+            <VARS>
+                <VAR name="in0step0">0.01621621549129486<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025289574265480043<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test62">
+            <VARS>
+                <VAR name="in0step0">0.025289574265480043<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02374517321586609<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test63">
+            <VARS>
+                <VAR name="in0step0">0.02374517321586609<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025096523761749267<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test64">
+            <VARS>
+                <VAR name="in0step0">0.025096523761749267<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03088802993297577<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test65">
+            <VARS>
+                <VAR name="in0step0">0.03088802993297577<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03822393715381622<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test66">
+            <VARS>
+                <VAR name="in0step0">0.03822393715381622<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0364864856004715<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test67">
+            <VARS>
+                <VAR name="in0step0">0.0364864856004715<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02992278039455414<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test68">
+            <VARS>
+                <VAR name="in0step0">0.02992278039455414<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.024131274223327635<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test69">
+            <VARS>
+                <VAR name="in0step0">0.024131274223327635<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.019111970067024232<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test70">
+            <VARS>
+                <VAR name="in0step0">0.019111970067024232<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.024131274223327635<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test71">
+            <VARS>
+                <VAR name="in0step0">0.024131274223327635<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.02664092481136322<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test72">
+            <VARS>
+                <VAR name="in0step0">0.02664092481136322<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.024903473258018494<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test73">
+            <VARS>
+                <VAR name="in0step0">0.024903473258018494<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03146717846393585<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test74">
+            <VARS>
+                <VAR name="in0step0">0.03146717846393585<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0318532794713974<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test75">
+            <VARS>
+                <VAR name="in0step0">0.0318532794713974<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03204633295536041<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test76">
+            <VARS>
+                <VAR name="in0step0">0.03204633295536041<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.040733590722084045<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test77">
+            <VARS>
+                <VAR name="in0step0">0.040733590722084045<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.050193047523498534<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test78">
+            <VARS>
+                <VAR name="in0step0">0.050193047523498534<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.046911194920539856<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test79">
+            <VARS>
+                <VAR name="in0step0">0.046911194920539856<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04015444219112396<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test80">
+            <VARS>
+                <VAR name="in0step0">0.04015444219112396<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03281853497028351<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test81">
+            <VARS>
+                <VAR name="in0step0">0.03281853497028351<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.025675675272941588<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test82">
+            <VARS>
+                <VAR name="in0step0">0.025675675272941588<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.033590731024742124<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test83">
+            <VARS>
+                <VAR name="in0step0">0.033590731024742124<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03474903404712677<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test84">
+            <VARS>
+                <VAR name="in0step0">0.03474903404712677<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03339768350124359<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test85">
+            <VARS>
+                <VAR name="in0step0">0.03339768350124359<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04111969172954559<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test86">
+            <VARS>
+                <VAR name="in0step0">0.04111969172954559<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0403474897146225<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test87">
+            <VARS>
+                <VAR name="in0step0">0.0403474897146225<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04131273925304413<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test88">
+            <VARS>
+                <VAR name="in0step0">0.04131273925304413<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0521235466003418<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test89">
+            <VARS>
+                <VAR name="in0step0">0.0521235466003418<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.059652507305145264<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test90">
+            <VARS>
+                <VAR name="in0step0">0.059652507305145264<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05810810327529907<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test91">
+            <VARS>
+                <VAR name="in0step0">0.05810810327529907<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04845559895038605<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test92">
+            <VARS>
+                <VAR name="in0step0">0.04845559895038605<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03899613916873932<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test93">
+            <VARS>
+                <VAR name="in0step0">0.03899613916873932<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03223938047885895<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test94">
+            <VARS>
+                <VAR name="in0step0">0.03223938047885895<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03899613916873932<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test95">
+            <VARS>
+                <VAR name="in0step0">0.03899613916873932<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.040733590722084045<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test96">
+            <VARS>
+                <VAR name="in0step0">0.040733590722084045<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.038030889630317685<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test97">
+            <VARS>
+                <VAR name="in0step0">0.038030889630317685<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04864864647388458<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test98">
+            <VARS>
+                <VAR name="in0step0">0.04864864647388458<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04710424840450287<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test99">
+            <VARS>
+                <VAR name="in0step0">0.04710424840450287<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04845559895038605<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test100">
+            <VARS>
+                <VAR name="in0step0">0.04845559895038605<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06138995885848999<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test101">
+            <VARS>
+                <VAR name="in0step0">0.06138995885848999<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06969112157821655<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test102">
+            <VARS>
+                <VAR name="in0step0">0.06969112157821655<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.07007721662521363<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test103">
+            <VARS>
+                <VAR name="in0step0">0.07007721662521363<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05791505575180054<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test104">
+            <VARS>
+                <VAR name="in0step0">0.05791505575180054<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.046911194920539856<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test105">
+            <VARS>
+                <VAR name="in0step0">0.046911194920539856<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.038803085684776306<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test106">
+            <VARS>
+                <VAR name="in0step0">0.038803085684776306<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04478764235973358<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test107">
+            <VARS>
+                <VAR name="in0step0">0.04478764235973358<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.045559844374656676<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test108">
+            <VARS>
+                <VAR name="in0step0">0.045559844374656676<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04131273925304413<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test109">
+            <VARS>
+                <VAR name="in0step0">0.04131273925304413<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04980694949626922<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test110">
+            <VARS>
+                <VAR name="in0step0">0.04980694949626922<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04710424840450287<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test111">
+            <VARS>
+                <VAR name="in0step0">0.04710424840450287<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04999999701976776<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test112">
+            <VARS>
+                <VAR name="in0step0">0.04999999701976776<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06389961242675782<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test113">
+            <VARS>
+                <VAR name="in0step0">0.06389961242675782<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0747104287147522<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test114">
+            <VARS>
+                <VAR name="in0step0">0.0747104287147522<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.07741312980651856<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test115">
+            <VARS>
+                <VAR name="in0step0">0.07741312980651856<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05791505575180054<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test116">
+            <VARS>
+                <VAR name="in0step0">0.05791505575180054<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04922780096530914<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test117">
+            <VARS>
+                <VAR name="in0step0">0.04922780096530914<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.03976834118366242<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test118">
+            <VARS>
+                <VAR name="in0step0">0.03976834118366242<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04498069584369659<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test119">
+            <VARS>
+                <VAR name="in0step0">0.04498069584369659<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04942084848880768<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test120">
+            <VARS>
+                <VAR name="in0step0">0.04942084848880768<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04594594538211823<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test121">
+            <VARS>
+                <VAR name="in0step0">0.04594594538211823<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05830116271972656<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test122">
+            <VARS>
+                <VAR name="in0step0">0.05830116271972656<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.056370651721954344<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test123">
+            <VARS>
+                <VAR name="in0step0">0.056370651721954344<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06100386381149292<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test124">
+            <VARS>
+                <VAR name="in0step0">0.06100386381149292<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.07104246616363526<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test125">
+            <VARS>
+                <VAR name="in0step0">0.07104246616363526<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.08571429252624511<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test126">
+            <VARS>
+                <VAR name="in0step0">0.08571429252624511<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.08783783912658691<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test127">
+            <VARS>
+                <VAR name="in0step0">0.08783783912658691<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06930501461029052<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test128">
+            <VARS>
+                <VAR name="in0step0">0.06930501461029052<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.0584942102432251<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test129">
+            <VARS>
+                <VAR name="in0step0">0.0584942102432251<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.04980694949626922<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test130">
+            <VARS>
+                <VAR name="in0step0">0.04980694949626922<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05810810327529907<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test131">
+            <VARS>
+                <VAR name="in0step0">0.05810810327529907<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06042470932006836<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test132">
+            <VARS>
+                <VAR name="in0step0">0.06042470932006836<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.055405402183532716<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test133">
+            <VARS>
+                <VAR name="in0step0">0.055405402183532716<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06081080436706543<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test134">
+            <VARS>
+                <VAR name="in0step0">0.06081080436706543<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06891891956329346<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test135">
+            <VARS>
+                <VAR name="in0step0">0.06891891956329346<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.07104246616363526<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test136">
+            <VARS>
+                <VAR name="in0step0">0.07104246616363526<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.08320463895797729<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test137">
+            <VARS>
+                <VAR name="in0step0">0.08320463895797729<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.1<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test138">
+            <VARS>
+                <VAR name="in0step0">0.1<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.09691120386123657<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test139">
+            <VARS>
+                <VAR name="in0step0">0.09691120386123657<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.07799227237701416<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test140">
+            <VARS>
+                <VAR name="in0step0">0.07799227237701416<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.06891891956329346<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="test141">
+            <VARS>
+                <VAR name="in0step0">0.06891891956329346<LOCAL value="0.0015" test="barbaLib:truc:1"/>
+                </VAR>
+                <VAR name="in0step1">0.05521235466003418<LOCAL value="0.0027" test="barbaLib:truc:1"/>
+                </VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS/>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST name="barbaLib:truc:1" enabled="true"/></TESTSSTATUS>
+        </CORNER>
+    </CORNERS>
+    <VARS>
+        <VAR name="R3">50k</VAR>
+        <VAR name="R1">50k</VAR>
+        <VAR name="Rf">505k</VAR>
+        <VAR name="R2">500k</VAR>
+        <VAR name="R4">500k</VAR>
+        <VAR name="R">505k</VAR>
+        <VAR name="T">40u</VAR>
+        <VAR name="vdd">1.8</VAR>
+        <VAR name="r">100</VAR>
+    </VARS>
+    <MODELGROUPS/>
+    <TESTS>
+        <TEST state="barbaLib:truc:1_none_Interactive.7" simultor="spectre" lib="barbaLib" view="schematic" cell="truc">barbaLib:truc:1</TEST>
+    </TESTS>
+    <RESULTSSUMMARY>
+        <RSITEM expName="value(VT(&quot;/net88&quot;) 8.5e-05)" expType="expr" resultName="outputVal" maxVal="791.5m" minVal="788.7m" test="barbaLib:truc:1"/>
+    </RESULTSSUMMARY>
+    <TESTDOCS>
+        <TESTDOC testName="barbaLib:truc:1" testFileName="barbaLib_truc_1"/>
+    </TESTDOCS>
+</ROOT>
