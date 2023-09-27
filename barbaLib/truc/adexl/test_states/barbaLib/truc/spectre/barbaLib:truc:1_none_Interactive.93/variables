@@ -133,7 +133,7 @@ tmp15 = make_sevVariableStruct()
 tmp15 = (ncons nil)
 )
 tmp15->name = "T"
-tmp15->expression = "40u"
+tmp15->expression = "8u"
 tmp15->index = 15
 list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
 )

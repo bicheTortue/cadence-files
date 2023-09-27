@@ -5,6 +5,11 @@ barbaLib/test/
 circuits/
 data/
 graphs/
+tsmcN65
+voltageMult.va
+opAmp.va
+memristor.v
+*.sp
 *.rdb
 *.log*
 *.cdslck
