@@ -4,6 +4,7 @@ logs_vbarbaza/
 barbaLib/test/
 circuits/
 data/
+graphs/
 *.rdb
 *.log*
 *.cdslck
