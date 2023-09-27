@@ -1,6 +1,9 @@
 .cadence/
 .tmp_vbarbaza/
 logs_vbarbaza/
+barbaLib/test/
+circuits/
+data/
 *.rdb
 *.log*
 *.cdslck
