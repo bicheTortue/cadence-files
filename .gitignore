@@ -5,7 +5,12 @@ barbaLib/test/
 circuits/
 data/
 graphs/
+Calibre
+Assura
+models
 tsmcN65
+*.lib
+*.skl
 voltageMult.va
 opAmp.va
 memristor.v
