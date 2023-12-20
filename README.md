@@ -4,9 +4,15 @@ This repo contains two files used to import the [netlists](../../../NN-netlist-g
 
 ## Table of Contents
 
+- [Usage](#usage)
+
 - [Importing](#importing)
 
 - [License](#license)
+
+## Usage
+
+Download or clone the repo at the root of your Cadence's Virtuoso project.
 
 ## Importing
 
